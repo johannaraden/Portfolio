@@ -20,7 +20,7 @@ const HeadlineContainer = styled.section`
 
 const ContactContainer = styled.section`
   border: 1px solid black;
-  width: 40%;
+  width: 30%;
   margin: auto;
   display: flex;
   flex-direction: column;

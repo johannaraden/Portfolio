@@ -1,9 +1,22 @@
 import React from 'react'
+import styled from 'styled-components'
+
+
+const Title = styled.h1`
+  background-color: red;
+  width: 8em;
+  padding: .2em;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+`
+
 
 export const Headline = () => {
     return (
-      <div>
-        Find me in src/app.js!
-      </div>
+      <Title>
+        Test headline
+      </Title>
     )
   }
