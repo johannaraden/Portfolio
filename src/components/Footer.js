@@ -12,19 +12,18 @@ const FooterContainer = styled.section`
   text-align: center;
 `
 const HeadlineContainer = styled.section`
-  border: 1px solid black;
-  margin: 2em auto;
+  margin: 4em auto 1em auto;
   width: 8em;
-  background-color: pink;
+  font-weight: 800;
+  color: white;
 `
 
 const ContactContainer = styled.section`
-  border: 1px solid black;
   width: 30%;
   margin: auto;
   display: flex;
   flex-direction: column;
-  background-color: pink;
+  color: white; 
 `
 
 export const Footer = () => {

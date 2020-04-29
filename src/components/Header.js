@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// src\img\geometric-decoration.jpg
 
-const HeaderContainer = styled.section`
+const HeaderContainer = styled.div`
   border: 1px solid black;
   width: 100%;
   margin: 0;
   margin-bottom: 4em;
   height: 18em;
-  background-color: azure;
+  background-image: url('../img/geometric-decoration.jpg');
 `
 const IconContainer = styled.section`
   border: 1px solid black;
@@ -43,7 +44,7 @@ export const Header = () => {
         <IntroContainer>  
             <div><p>PORTFOLIO:</p><p>JOHANNA RÅDÉN</p></div>
             <p>frontend developer</p>
-            <p>+ digital designer</p>
+            <p> digital designer</p>
             </IntroContainer>
         <ImgContainer>Img Container</ImgContainer>
       </HeaderContainer>

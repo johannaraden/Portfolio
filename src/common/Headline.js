@@ -10,13 +10,21 @@ const Title = styled.h1`
   text-align: center;
   font-size: 1.2em;
   text-transform: uppercase;
+  margin: 2em auto;
 `
 
+const headLines = [
+  { title: "Home", href: "https://www.google.se/" },
+  { title: "Products", href: "https://www.facebook.com/" },
+  { title: "Contact", href: "https://www.koket.se/recept" }
+];
 
-export const Headline = () => {
+
+export const Headline = props => {
     return (
       <Title>
-        Test headline
+        {headLines[1].title}
+        {props.title}
       </Title>
     )
   }
