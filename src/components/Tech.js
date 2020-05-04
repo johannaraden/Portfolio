@@ -25,7 +25,7 @@ const DetailsContainer = styled.section`
 export const Tech = () => {
     return (
       <TechContainer>
-        <Headline />
+        <Headline title="tech"/>
         <DetailsContainer>
             <p>HTML, CSS, Flexbox, Grid, JavaScript, ES6, JSX, React, React Hooks, Redux, Node.js, Mongo BD, Web Accessibly, API:s, mob-programming, pair-programming, Github</p>
         </DetailsContainer>

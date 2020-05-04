@@ -25,7 +25,7 @@ const DetailsContainer = styled.section`
 export const Skills = () => {
     return (
      <>
-     <Headline />
+     <Headline title="My skills"/>
       <SkillsContainer>
         <DetailsContainer>
             <h5>CODE</h5>

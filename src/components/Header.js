@@ -45,7 +45,7 @@ export const Header = () => {
             <div><p>PORTFOLIO:</p><p>JOHANNA RÅDÉN</p></div>
             <p>frontend developer</p>
             <p> digital designer</p>
-            </IntroContainer>
+          </IntroContainer>
         <ImgContainer>Img Container</ImgContainer>
       </HeaderContainer>
     )

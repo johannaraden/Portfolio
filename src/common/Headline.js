@@ -20,11 +20,10 @@ const headLines = [
 ];
 
 
-export const Headline = props => {
+export const Headline = ({title}) => {
     return (
       <Title>
-        {headLines[1].title}
-        {props.title}
+        {title}
       </Title>
     )
   }
