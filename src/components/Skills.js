@@ -4,7 +4,6 @@ import { Headline } from '../common/Headline'
 
 
 const SkillsContainer = styled.section`
-  border: 1px solid black;
   width: 100%;
   margin: 0;
   height: 18em;

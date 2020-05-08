@@ -15,8 +15,8 @@ width: 30%;
 
 const Header = styled.div`
 display: flex;
-// align-items: center;
 flex-direction: column;
+cursor: pointer;
 `
 
 const CoverImage = styled.img`

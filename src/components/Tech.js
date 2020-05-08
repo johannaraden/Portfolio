@@ -4,9 +4,8 @@ import { Headline } from '../common/Headline'
 
 
 const TechContainer = styled.section`
-  border: 1px solid black;
   width: 100%;
-  margin: 0;
+  margin-top: 2em;
   height: 18em;
   background-color: white;
   text-align: center;
@@ -14,12 +13,11 @@ const TechContainer = styled.section`
 
 
 const DetailsContainer = styled.section`
-  border: 1px solid black;
-  width: 30%;
+  width: 40%;
   margin: auto;
   display: flex;
   flex-direction: column;
-  background-color: pink;
+  line-height: 30px;
 `
 
 export const Tech = () => {

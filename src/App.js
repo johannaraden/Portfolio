@@ -5,16 +5,19 @@ import { Links } from 'components/Links'
 import { Tech } from 'components/Tech'
 import { Skills } from 'components/Skills'
 import { Projects } from 'components/Projects'
+import { Intro } from 'components/Intro'
+
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Header />
+      <Intro />
       <Tech />
       <Skills />
       <Projects />
       <Links />
       <Footer />
-    </div>
+    </>
   )
 }
