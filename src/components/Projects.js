@@ -1,31 +1,37 @@
 import React from 'react'
-import { ProjectCard } from '../common/ProjectCard'
 import styled from 'styled-components'
 import { Headline } from 'common/Headline'
-
+// import { Chip } from '@material-ui/core'
+import { ProjectCard } from '../common/ProjectCard'
+import { Main } from '../common/Main'
 
 const ProjectsContainer = styled.section`
-background-color: #f1f1f1;
-padding: 3em;
+  padding: 3em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 `
 
+const projects = [
+  { title: 'Movie Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is about...', technologies: ['JavaScript', 'HTML', 'CSS'] },
+  { title: 'Nutrition Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is', technologies: ['JavaScript', 'HTML', 'CSS'] },
+  { title: 'Quiz Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is about...', technologies: ['JavaScript', 'HTML', 'CSS'] }
+]
 
 export const Projects = () => {
-    return (
-      <>
-       <Headline title="featured projects"/>
-       <ProjectsContainer>
-          <ProjectCard 
-            coverImage="https://www.fillmurray.com/100/100"
-            title="this title comes from Project.js" 
-            secondaryText="Secondary from projects.js" 
-            />
-             <ProjectCard 
-            coverImage="https://www.fillmurray.com/100/100"
-            title="this title comes from Project.js" 
-            secondaryText="Secondary from projects.js" 
-            />
+  return (
+    <Main primary>
+      <Headline title="projects" />
+      <ProjectsContainer>
+        {projects.map((project) =>
+          <ProjectCard
+            coverImage={project.coverImage}
+            title={project.title}
+            secondaryText={project.secondaryText}
+            chips={project.technologies}
+          />
+        )}
       </ProjectsContainer>
-      </>
-    )
-  }
+    </Main>
+)
+}

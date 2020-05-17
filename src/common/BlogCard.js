@@ -2,8 +2,8 @@ import React from 'react'
 
 export const BlogCard = () => {
   return (
-      <div>
+    <div>
         Find me in src/app.js!
     </div>
-    )
-  }
+  )
+}

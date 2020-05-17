@@ -1,40 +1,42 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 
 
 const FooterContainer = styled.section`
-  border: 1px solid black;
   width: 100%;
-  margin: 0;
   height: 18em;
-  background-color: blue;
+  background-color: #030ffc;
   color: white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
 `
 const HeadlineContainer = styled.section`
-  margin: 4em auto 1em auto;
+  align-self: center;
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: -1em;
   width: 8em;
   font-weight: 800;
   color: white;
 `
 
 const ContactContainer = styled.section`
-  width: 30%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  margin: 1em;
   color: white; 
+  text-align: center;
+  align-self: center;
 `
 
 export const Footer = () => {
-    return (
-      <FooterContainer>
-        <HeadlineContainer>CONTACT</HeadlineContainer>
-        <ContactContainer>
-            <p>Johanna Rådén</p>
-            <p>Adress</p>
-            <p>Telefon</p>
-        </ContactContainer>
-      </FooterContainer>
-    )
-  }
+  return (
+    <FooterContainer>
+      <HeadlineContainer>CONTACT</HeadlineContainer>
+      <ContactContainer>
+        <p>Johanna Rådén</p>
+        <p>Adress</p>
+        <p>Telefon</p>
+      </ContactContainer>
+    </FooterContainer>
+  )
+}

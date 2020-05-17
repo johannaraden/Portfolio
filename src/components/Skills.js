@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Headline } from '../common/Headline'
-
+import { Main } from '../common/Main'
 
 const SkillsContainer = styled.section`
   width: 100%;
@@ -12,7 +12,6 @@ const SkillsContainer = styled.section`
   text-align: center;
 `
 
-
 const DetailsContainer = styled.section`
   width: 30%;
   margin: auto;
@@ -22,27 +21,27 @@ const DetailsContainer = styled.section`
 `
 
 export const Skills = () => {
-    return (
-     <>
-     <Headline title="My skills"/>
-      <SkillsContainer>
-        <DetailsContainer>
+  return (
+    <Main>
+      <Headline title="My skills"/>
+        <SkillsContainer>
+          <DetailsContainer>
             <h5>CODE</h5>
             <p>HTML</p>
             <p>CSS</p>
             <p>JavaScript</p>
-        </DetailsContainer>
-        <DetailsContainer>
+          </DetailsContainer>
+          <DetailsContainer>
             <h5>TOOLBOX</h5>
             <p>Slack</p>
             <p>Postman</p>
-        </DetailsContainer>
-        <DetailsContainer>
+          </DetailsContainer>
+          <DetailsContainer>
             <h5>MORE</h5>
             <p>Lovely things</p>
             <p>Lovely things</p>
-        </DetailsContainer>
+          </DetailsContainer>
       </SkillsContainer>
-    </>
-    )
-  }
+    </Main>
+  )
+}

@@ -1,11 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 
 
 const Title = styled.h1`
   background-color: red;
-  width: 8em;
   padding: .2em;
+  max-width: 8em;
   color: white;
   text-align: center;
   font-size: 1.2em;
@@ -15,9 +15,9 @@ const Title = styled.h1`
 
 
 export const Headline = ({title}) => {
-    return (
-      <Title>
-        {title}
-      </Title>
-    )
-  }
+  return (
+    <Title>
+      {title}
+    </Title>
+  )
+}
