@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 
 
 const Title = styled.h1`
-  background-color: red;
+  background-color: #AED9E0;
   padding: .2em;
   max-width: 8em;
   color: white;

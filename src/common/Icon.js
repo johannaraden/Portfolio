@@ -14,7 +14,7 @@ const Link = styled.a`
 export const Icon = ({ src, href }) => {
   return (
     <Link href={href}>
-      <Circle src={src} />
+      <Circle src={src}/>
     </Link>
   )
 }

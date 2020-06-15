@@ -1,18 +1,16 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import { Icon } from 'common/Icon'
-import Git from '../img/Mobile/github.svg'
-import Stack from '../img/Mobile/stack.svg'
-import Linkedin from '../img/Mobile/linkedin.svg'
+import Stack from '../img/Web/stack.svg'
+import Git from '../img/Web/github.svg'
+import Linkedin from '../img/Web/linkedin.svg'
 import Profile from '../img/Profile/cute2.png'
-import Background from '../img/Profile/geometric-decoration.jpg'
 
 const HeaderContainer = styled.div`
   width: 100%;
   margin: 0;
   height: 40%;
-  background-color: lightblue;
-  background-image: url(${Background});
+  background-color: #AED9E0;
   background-size: cover;
 `
 const IconContainer = styled.section`
@@ -23,16 +21,18 @@ const IconContainer = styled.section`
 `
 
 const IconCircle = styled.div`
-  border: 4px solid white;
+  border: 4px solid #FFA69E;
   border-radius: 200px;
   margin: 1em;
+  &:hover {
+    //animation
+  }
 `
 
 const IntroContainer = styled.section`
   width: 40%;
   margin-right: auto;
   margin-left: 10%;
-  border: 2px solid black;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -50,10 +50,28 @@ const Img = styled.img`
   width: 16em;
   height: 16em;
   border-radius: 200px;
-  margin: 1em 1.1em;
+  margin: -5em 1em;
 `
 
+const Profession = styled.p`
+  font-size: 6em;
+  color: #FAF3DD; 
+  font-weight: bold;
+  margin: 0;
+`
 
+const Extra = styled.p`
+  color: #5E6472;
+  margin: 0;
+  font-size: 1.2em;
+`
+
+const Name = styled.p`
+  color: #5E6472;
+  font-weight: 2em;
+  font-size: 1.2em;
+  margin: 0;
+`
 export const Header = () => {
   return (
     <HeaderContainer>
@@ -65,13 +83,13 @@ export const Header = () => {
           <Icon src={Git} alt="github-icon"/>
         </IconCircle>
         <IconCircle>
-          <Icon src={Stack} alt="stackoverflow-icon"/>
+          <Icon href="http://www.w3schools.com" src={Stack} alt="stackoverflow-icon"/>
         </IconCircle>
       </IconContainer>
       <IntroContainer>  
-        <p>PORTFOLIO: <strong>JOHANNA RÅDÉN</strong></p>
-        <p>frontend developer</p>
-        <p>+ digital designer</p>
+        <Name>PORTFOLIO: <strong>JOHANNA RÅDÉN</strong></Name>
+        <Profession>frontend developer.</Profession>
+        <Extra><strong>+</strong> digital designer</Extra>
       </IntroContainer>
       <ImgContainer>
         <Img src={Profile} />

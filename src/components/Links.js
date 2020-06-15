@@ -1,6 +1,7 @@
 import React from 'react'
 import { Headline } from 'common/Headline'
 import styled from 'styled-components'
+import '../styles/themes'
 import { Icon } from 'common/Icon'
 import Stack from '../img/Web/stack.svg'
 import Git from '../img/Web/github.svg'
@@ -16,12 +17,16 @@ margin: auto;
 `
 
 const IconCircle = styled.div`
-border: 4px solid red;
+border: 4px solid #FFA69E;
 border-radius: 200px;
 margin: 2em;
+&:hover {
+  background-color: #AED9E0;
+}
 `
 
 export const Links = () => {
+ 
   return (
     <Main>
     <Headline title="for more"/>
