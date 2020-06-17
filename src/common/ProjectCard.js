@@ -1,8 +1,7 @@
-import React from 'react'
-import '../styling.css'
-import styled from 'styled-components/macro'
-// import { makeStyles } from "@material-ui/core/styles"
-// import Chip from "@material-ui/core/Chip"
+import React from "react"
+import "../styling.css"
+import styled from "styled-components/macro"
+import Chip from "@material-ui/core/Chip"
 
 const CardContainer = styled.div`
   border-radius: 6px;
@@ -31,6 +30,11 @@ const CoverImage = styled.img`
   width: 100%;
   border-radius: 6px 6px 0 0;
 `
+
+const CardText = styled.div`
+  margin: 1em;
+`
+
 const Title = styled.h1`
   font-size: 1.2em;
 `
@@ -43,43 +47,39 @@ const Content = styled.div`
 
 `
 
-// const useStyles = makeStyles(theme => ({
-//   root: {
-//     display: "flex",
-//     justifyContent: "center",
-//     flexWrap: "wrap",
-//     listStyle: "none",
-//     padding: theme.spacing(2),
-//     margin: 0
-//   },
-//   chip: {
-//     margin: theme.spacing(0.5)
-//   },
-//   chipActive: {
-//     margin: theme.spacing(0.5),
-//     background: "primary"
-//   }
-// }));
+const Button = styled.button`
+  border-radius: 200px;
+  border: none;
+  padding: .5em 1em;
+  cursor: pointer;
+`
 
-export const ProjectCard = ({ title, secondaryText, coverImage }) => {
-  // const classes = useStyles();
-  // const [chipData, setChipData] = React.useState([
-  //   { key: 0, label: "Angular" },
-  //   { key: 3, label: "React" },
-  //   { key: 4, label: "Vue.js" }
-  // ]);
+const ChipsContainer = styled.div`
+  display: flex;
+  margin: 1em;
+  flex-wrap: wrap;
+  > * {
+    margin: .2em;
+  }
+`
+
+
+export const ProjectCard = ({ title, secondaryText, coverImage, href, technologies }) => {
+
   return (
     <CardContainer>
       <Content>
         <Header>
           {coverImage && <CoverImage src={coverImage} />}
-          <div className="cardText">
+          <CardText>
             {title && <Title>{title}</Title>}
             {secondaryText && <Description>{secondaryText}</Description>}
-            <a href='https://www.google.se/'>>></a>
-          </div>
+            <a href={href}><Button>To project</Button></a>
+          </CardText>
         </Header>
-        {/* <Chip {technology}/> */}
+        <ChipsContainer>
+        {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
+        </ChipsContainer>
       </Content>
     </CardContainer>
   )

@@ -8,7 +8,7 @@ const Title = styled.h1`
   max-width: 8em;
   color: white;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.6em;
   text-transform: uppercase;
   margin: 2em auto;
 `

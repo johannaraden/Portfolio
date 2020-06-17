@@ -24,7 +24,7 @@ export const Tech = () => {
       <TechContainer>
         <Headline title="tech"/>
         <DetailsContainer>
-            <p>HTML, CSS, Flexbox, Grid, JavaScript, ES6, JSX, React, React Hooks, Redux, Node.js, Mongo BD, Web Accessibly, API:s, mob-programming, pair-programming, Github</p>
+            <p>HTML, CSS, Flexbox, Grid, JavaScript, React Native, ES6, JSX, React, React Hooks, Redux, Node.js, Mongo BD, Web Accessibly, API:s, mob-programming, pair-programming, Github</p>
         </DetailsContainer>
       </TechContainer>
       </Main>

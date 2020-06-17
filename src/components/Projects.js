@@ -15,7 +15,7 @@ const ProjectsContainer = styled.section`
 const projects = [
   { title: 'Movie Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is about...', technologies: ['JavaScript', 'HTML', 'CSS'] },
   { title: 'Nutrition Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is', technologies: ['JavaScript', 'HTML', 'CSS'] },
-  { title: 'Quiz Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is about...', technologies: ['JavaScript', 'HTML', 'CSS'] }
+  { title: 'Quiz Project', coverImage: 'https://www.fillmurray.com/100/100', secondaryText: 'This project is about...', href: 'https://www.google.se/', technologies: ['JavaScript', 'HTML', 'CSS'] }
 ]
 
 export const Projects = () => {
@@ -28,7 +28,8 @@ export const Projects = () => {
             coverImage={project.coverImage}
             title={project.title}
             secondaryText={project.secondaryText}
-            chips={project.technologies}
+            technologies={project.technologies}
+            href={project.href}
           />
         )}
       </ProjectsContainer>
