@@ -7,7 +7,6 @@ const SkillsContainer = styled.section`
   width: 100%;
   margin: 0;
   display: flex;
-  background-color: white;
   text-align: center;
 `
 
@@ -27,8 +26,8 @@ const DetailsContainer = styled.section`
 
 export const Skills = () => {
   return (
-    <Main>
-      <Headline title="My skills"/>
+    <Main >
+      <Headline title='My skills'/>
         <SkillsContainer>
           <DetailsContainer>
             <h5>CODE</h5>
@@ -39,6 +38,7 @@ export const Skills = () => {
             <p>Redux</p>
             <p>Node.js</p>
             <p>React Native</p>
+            <p>REST-API</p>
           </DetailsContainer>
           <DetailsContainer>
             <h5>TOOLBOX</h5>
@@ -55,7 +55,12 @@ export const Skills = () => {
           <DetailsContainer>
             <h5>MORE</h5>
             <p>Mob programming</p>
-            <p>REST-API</p>
+            <p>Event coordinating</p>
+            <p>Project management</p>
+            <p>Teaching</p>
+            <p>Rhetoric</p>
+            <p>Coaching</p>
+            <p>Communication strategy</p>
           </DetailsContainer>
       </SkillsContainer>
     </Main>

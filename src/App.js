@@ -5,6 +5,7 @@ import { Links } from 'components/Links'
 import { Tech } from 'components/Tech'
 import { Skills } from 'components/Skills'
 import { Projects } from 'components/Projects'
+import { More } from 'components/More'
 import { Intro } from 'components/Intro'
 
 
@@ -14,8 +15,9 @@ export const App = () => {
       <Header />
       <Intro />
       <Tech />
-      <Skills />
       <Projects />
+      <More />
+      <Skills />
       <Links />
       <Footer />
     </>

@@ -1,9 +1,7 @@
 import React from 'react'
 import { Headline } from 'common/Headline'
 import styled from 'styled-components'
-import '../styles/themes'
 import { Icon } from 'common/Icon'
-import Stack from '../img/Web/stack.svg'
 import Git from '../img/Web/github.svg'
 import Linkedin from '../img/Web/linkedin.svg'
 import { Main } from '../common/Main'
@@ -20,25 +18,23 @@ const IconCircle = styled.div`
 border: 4px solid #FFA69E;
 border-radius: 200px;
 margin: 2em;
+transition: all 0.3s ease-out;
 &:hover {
-  background-color: #AED9E0;
+  border: 4px solid #AED9E0;
 }
 `
 
 export const Links = () => {
  
   return (
-    <Main>
-    <Headline title="for more"/>
+    <Main primary>
+    <Headline title='for more'/>
     <IconWrapper>
       <IconCircle>
-        <Icon src={Stack} alt="stackoverflow-icon" href="http://www.w3schools.com"/>
+        <Icon src={Git} alt='git-icon' href='https://github.com/johannaraden'/>
       </IconCircle>
       <IconCircle>
-        <Icon src={Git} alt="git-icon" href="http://www.w3schools.com"/>
-      </IconCircle>
-      <IconCircle>
-        <Icon src={Linkedin} alt="linkedin-icon" href="http://www.w3schools.com"/>
+        <Icon src={Linkedin} alt='linkedin-icon' href='http://www.w3schools.com'/>
       </IconCircle>
     </IconWrapper>
     </Main>

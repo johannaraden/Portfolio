@@ -5,7 +5,6 @@ import styled from 'styled-components/macro'
 const FooterContainer = styled.section`
   width: 100%;
   height: 18em;
-  // background-color: #030ffc;
   background-color: #5E6472;
   color: white;
   display: flex;

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import { Icon } from 'common/Icon'
-import Stack from '../img/Web/stack.svg'
 import Git from '../img/Web/github.svg'
 import Linkedin from '../img/Web/linkedin.svg'
 import Profile from '../img/Profile/cute2.png'
@@ -24,8 +23,9 @@ const IconCircle = styled.div`
   border: 4px solid #FFA69E;
   border-radius: 200px;
   margin: 1em;
+  transition: all 0.3s ease-out;
   &:hover {
-    //animation
+    border: 4px solid #FAF3DD;
   }
 `
 
@@ -77,19 +77,16 @@ export const Header = () => {
     <HeaderContainer>
       <IconContainer>
         <IconCircle>
-          <Icon src={Linkedin} alt="linkedin-icon"/>
+          <Icon href='' src={Linkedin} alt='linkedin-icon'/>
         </IconCircle>
         <IconCircle>
-          <Icon src={Git} alt="github-icon"/>
-        </IconCircle>
-        <IconCircle>
-          <Icon href="http://www.w3schools.com" src={Stack} alt="stackoverflow-icon"/>
+          <Icon href='https://github.com/johannaraden' src={Git} alt='github-icon'/>
         </IconCircle>
       </IconContainer>
       <IntroContainer>  
         <Name>PORTFOLIO: <strong>JOHANNA RÅDÉN</strong></Name>
         <Profession>frontend developer.</Profession>
-        <Extra><strong>+</strong> digital designer</Extra>
+        <Extra><strong>+</strong> digital designer/??</Extra>
       </IntroContainer>
       <ImgContainer>
         <Img src={Profile} />
