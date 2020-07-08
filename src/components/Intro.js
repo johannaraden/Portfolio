@@ -26,7 +26,7 @@ export const Intro = () => {
     <Main>
       <IntroContainer>
         <h2>hello</h2>
-        <p>I'm a frontend developer with background in rhetorics and  ***. I'm a frontend developer with background in rhetorics and  ***. I'm a frontend developer with background in rhetorics and  ***. </p>
+        <p>A curious frontend developer who found coding through the interest for communication and design. I aspire to take advantage of my skills in communication, languages, design and combining them with coding in order to make functional, understandable and aesthetically pleasing applications. </p>
       </IntroContainer>
     </Main>
   )

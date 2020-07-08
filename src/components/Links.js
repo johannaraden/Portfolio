@@ -27,14 +27,14 @@ transition: all 0.3s ease-out;
 export const Links = () => {
  
   return (
-    <Main primary>
+    <Main>
     <Headline title='for more'/>
     <IconWrapper>
       <IconCircle>
         <Icon src={Git} alt='git-icon' href='https://github.com/johannaraden'/>
       </IconCircle>
       <IconCircle>
-        <Icon src={Linkedin} alt='linkedin-icon' href='http://www.w3schools.com'/>
+        <Icon src={Linkedin} alt='linkedin-icon' href='https://www.linkedin.com/in/johanna-r%C3%A5d%C3%A9n-0821b310b/'/>
       </IconCircle>
     </IconWrapper>
     </Main>

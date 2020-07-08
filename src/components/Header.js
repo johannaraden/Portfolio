@@ -77,7 +77,7 @@ export const Header = () => {
     <HeaderContainer>
       <IconContainer>
         <IconCircle>
-          <Icon href='' src={Linkedin} alt='linkedin-icon'/>
+          <Icon href='https://www.linkedin.com/in/johanna-r%C3%A5d%C3%A9n-0821b310b/' src={Linkedin} alt='linkedin-icon'/>
         </IconCircle>
         <IconCircle>
           <Icon href='https://github.com/johannaraden' src={Git} alt='github-icon'/>
@@ -86,7 +86,7 @@ export const Header = () => {
       <IntroContainer>  
         <Name>PORTFOLIO: <strong>JOHANNA RÅDÉN</strong></Name>
         <Profession>frontend developer.</Profession>
-        <Extra><strong>+</strong> digital designer/??</Extra>
+        <Extra><strong></strong></Extra>
       </IntroContainer>
       <ImgContainer>
         <Img src={Profile} />

@@ -76,7 +76,6 @@ export const ProjectCard = ({ title, secondaryText, coverImage, deploy, href, te
 
   return (
     <div class="card">
-      <div class="overlay"></div>
       <Content>
         <Header>
           {coverImage && <CoverImage src={coverImage} />}
