@@ -2,6 +2,7 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
+import { Button } from './Button'
 
 const CardContainer = styled.div`
   border-radius: 6px;
@@ -40,15 +41,15 @@ const Description = styled.p`
 
 `
 
-const Button = styled.button`
-  border-radius: 200px;
-  border: none;
-  padding: .5em 1em;
-  cursor: pointer;
-  background-color: #5E6472;
-  color: white;
-  margin-right: .3em;
-`
+// const Button = styled.button`
+//   border-radius: 200px;
+//   border: none;
+//   padding: .5em 1em;
+//   cursor: pointer;
+//   background-color: #5E6472;
+//   color: white;
+//   margin-right: .3em;
+// `
 
 const ChipsContainer = styled.div`
   display: flex;
@@ -67,8 +68,6 @@ const VL = styled.div`
 `
 
 export const BlogSummary = ({ title, secondaryText, deploy, keywords }) => {
-  
-  
   
   return (
     <CardContainer>

@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { Headline } from 'common/Headline'
 import { Main } from '../common/Main'
 import { BlogSummary } from '../common/BlogSummary'
+import { HeadlineSection } from '../common/HeadlineSection'
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const SummaryContainer = styled.section`
   padding: 3em;
@@ -18,9 +21,19 @@ const summary = [
 ]
 
 export const Blogs = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: "ease-out-quart",
+      once: true
+    })
+    AOS.refresh()
+  })
   return (
     <Main primary>
-      <Headline title='blog posts' />
+      <HeadlineSection>
+        <Headline title='articles' />
+      </HeadlineSection>
       <SummaryContainer>
         {summary.map((post) =>
           <BlogSummary

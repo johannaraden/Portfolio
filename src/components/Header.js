@@ -20,12 +20,11 @@ const IconContainer = styled.section`
 `
 
 const IconCircle = styled.div`
-  border: 4px solid #FFA69E;
   border-radius: 200px;
-  margin: 1em;
+  margin: .5em;
   transition: all 0.3s ease-out;
   &:hover {
-    border: 4px solid #FAF3DD;
+    background: #5E6472;
   }
 `
 
@@ -74,7 +73,10 @@ const Name = styled.p`
 `
 export const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer
+      data-aos-duration="30000"
+      data-aos-delay="1000"
+      data-aos-anchor-placement="bottom-bottom">
       <IconContainer>
         <IconCircle>
           <Icon href='https://www.linkedin.com/in/johanna-r%C3%A5d%C3%A9n-0821b310b/' src={Linkedin} alt='linkedin-icon'/>
@@ -83,13 +85,20 @@ export const Header = () => {
           <Icon href='https://github.com/johannaraden' src={Git} alt='github-icon'/>
         </IconCircle>
       </IconContainer>
-      <IntroContainer>  
+      <IntroContainer
+        data-aos="fade-down"
+        data-aos-duration="30000"
+        data-aos-delay="1000"
+        >  
         <Name>PORTFOLIO: <strong>JOHANNA RÅDÉN</strong></Name>
         <Profession>frontend developer.</Profession>
         <Extra><strong></strong></Extra>
       </IntroContainer>
       <ImgContainer>
-        <Img src={Profile} />
+        <Img data-aos="fade-up"
+        data-aos-duration="30000"
+        data-aos-delay="1000" 
+        src={Profile} />
       </ImgContainer>
     </HeaderContainer>
   )

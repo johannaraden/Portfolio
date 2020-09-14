@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Icon } from 'common/Icon'
 import Git from '../img/Web/github.svg'
 import Linkedin from '../img/Web/linkedin.svg'
+import { HeadlineSection } from '../common/HeadlineSection'
 import { Main } from '../common/Main'
 
 
@@ -15,12 +16,11 @@ margin: auto;
 `
 
 const IconCircle = styled.div`
-border: 4px solid #FFA69E;
 border-radius: 200px;
 margin: 2em;
 transition: all 0.3s ease-out;
 &:hover {
-  border: 4px solid #AED9E0;
+  background: #5E6472;
 }
 `
 
@@ -28,7 +28,9 @@ export const Links = () => {
  
   return (
     <Main>
-    <Headline title='for more'/>
+     <HeadlineSection>
+        <Headline title='for more' />
+      </HeadlineSection>
     <IconWrapper>
       <IconCircle>
         <Icon src={Git} alt='git-icon' href='https://github.com/johannaraden'/>

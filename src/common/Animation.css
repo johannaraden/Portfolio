@@ -1,0 +1,28 @@
+/* 
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+} */
+
+
+  .item--primary {
+    right: 20px;
+    background: green;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .item--secondary {
+    left: 20px;
+    background: red;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+

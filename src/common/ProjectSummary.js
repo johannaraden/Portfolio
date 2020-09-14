@@ -27,7 +27,6 @@ const Header = styled.div`
   cursor: pointer;
 `
 
-
 const CardText = styled.div`
   margin: 1em 1em 0 1em;
 `
@@ -42,12 +41,17 @@ const Description = styled.p`
 
 const Button = styled.button`
   border-radius: 200px;
-  border: none;
+  border: 1px solid white;
   padding: .5em 1em;
   cursor: pointer;
   background-color: #5E6472;
   color: white;
   margin-right: .3em;
+  & :hover {
+    background-color: white;
+    color: #5E6472;
+    border: 1px solid #5E6472;
+  }
 `
 
 const ChipsContainer = styled.div`

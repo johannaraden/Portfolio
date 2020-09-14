@@ -15,12 +15,12 @@ export const App = () => {
     <>
       <Header />
       <Intro />
-      <Tech />
+      {/* <Tech /> */}
       <Projects />
       <More />
       <Skills />
       <Blogs />
-      <Links />
+      {/* <Links /> */}
       <Footer />
     </>
   )

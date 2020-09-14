@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import { Headline } from '../common/Headline'
 import { Main } from '../common/Main'
+import { HeadlineSection } from '../common/HeadlineSection'
 
 const SkillsContainer = styled.section`
   width: 100%;
@@ -26,8 +27,10 @@ const DetailsContainer = styled.section`
 
 export const Skills = () => {
   return (
-    <Main >
-      <Headline title='My skills'/>
+    <Main>
+      <HeadlineSection>
+        <Headline title='my skills'/>
+      </HeadlineSection>
         <SkillsContainer>
           <DetailsContainer>
             <h5>CODE</h5>
@@ -42,15 +45,16 @@ export const Skills = () => {
           </DetailsContainer>
           <DetailsContainer>
             <h5>TOOLBOX</h5>
-            <p>Slack</p>
+            <p>Frontity</p>
             <p>Postman</p>
-            <p>Trello</p>
             <p>MongoDB</p>
             <p>Heroku</p>
             <p>Netlify</p>
             <p>Figma</p>
             <p>Brackets</p>
             <p>Visual Studio Code</p>
+            <p>Slack</p>
+            <p>Trello</p>
           </DetailsContainer>
           <DetailsContainer>
             <h5>MORE</h5>

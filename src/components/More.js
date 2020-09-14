@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { Headline } from 'common/Headline'
 import { Main } from '../common/Main'
 import { ProjectSummary } from '../common/ProjectSummary'
+import { HeadlineSection } from '../common/HeadlineSection'
+
 
 const SummaryContainer = styled.section`
   padding: 3em;
@@ -20,7 +22,9 @@ const summary = [
 export const More = () => {
   return (
     <Main primary>
-      <Headline title='more projects' />
+      <HeadlineSection>
+        <Headline title='more projects' />
+      </HeadlineSection>
       <SummaryContainer>
         {summary.map((project) =>
           <ProjectSummary

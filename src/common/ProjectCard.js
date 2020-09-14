@@ -54,12 +54,17 @@ const Content = styled.div`
 
 const Button = styled.button`
   border-radius: 200px;
-  border: none;
+  border: 1px solid white;
   padding: .5em 1em;
   cursor: pointer;
   background-color: #5E6472;
   color: white;
   margin-right: .3em;
+  & :hover {
+    background-color: white;
+    color: #5E6472;
+    border: 1px solid #5E6472;
+  }
 `
 
 const ChipsContainer = styled.div`
@@ -75,7 +80,7 @@ const ChipsContainer = styled.div`
 export const ProjectCard = ({ title, secondaryText, coverImage, deploy, href, technologies }) => {
 
   return (
-    <div class="card">
+    <div className="card">
       <Content>
         <Header>
           {coverImage && <CoverImage src={coverImage} />}
@@ -87,7 +92,7 @@ export const ProjectCard = ({ title, secondaryText, coverImage, deploy, href, te
           </CardText>
         </Header>
         <ChipsContainer>
-        {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
+        {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
         </ChipsContainer>
       </Content>
     </div>
