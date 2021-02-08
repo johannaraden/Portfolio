@@ -45,14 +45,15 @@ export const Skills = () => {
           </DetailsContainer>
           <DetailsContainer>
             <h5>TOOLBOX</h5>
+            <p>Visual Studio Code</p>
             <p>Frontity</p>
             <p>Postman</p>
             <p>MongoDB</p>
             <p>Heroku</p>
             <p>Netlify</p>
+            <p>Wordpress</p>
             <p>Figma</p>
             <p>Brackets</p>
-            <p>Visual Studio Code</p>
             <p>Slack</p>
             <p>Trello</p>
           </DetailsContainer>

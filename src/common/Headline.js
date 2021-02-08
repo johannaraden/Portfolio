@@ -4,11 +4,14 @@ import './Animation.css'
 
 
 const Title = styled.h1`
+  background-color: #AED9E0;
+  padding: .2em;
   max-width: 8em;
-  color: #5E6472;
+  color: white;
   text-align: center;
-  font-size: 1.4em;
-  margin: 2em 1em;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin: 2em auto;
 `
 
  

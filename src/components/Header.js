@@ -31,7 +31,7 @@ const IconCircle = styled.div`
 const IntroContainer = styled.section`
   width: 40%;
   margin-right: auto;
-  margin-left: 10%;
+  margin-left: 20%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -39,21 +39,21 @@ const IntroContainer = styled.section`
 const ImgContainer = styled.section`
   display: flex;
   justify-content: flex-end;
-  margin-right: 15%;
+  margin-right: 20%;
   position: relative;
 `
 
 // How to deal with the img 
 
 const Img = styled.img`
-  width: 16em;
-  height: 16em;
+  width: 18em;
+  height: 18em;
   border-radius: 200px;
   margin: -5em 1em;
 `
 
 const Profession = styled.p`
-  font-size: 6em;
+  font-size: 8em;
   color: #FAF3DD; 
   font-weight: bold;
   margin: 0;

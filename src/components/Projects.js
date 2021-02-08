@@ -26,7 +26,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <Main>
+    <Main primary>
       <HeadlineSection>
         <Headline title='projects'/>
       </HeadlineSection>

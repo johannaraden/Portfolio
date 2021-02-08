@@ -49,7 +49,9 @@ const Description = styled.p`
 `
 
 const Content = styled.div`
-
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
 `
 
 const Button = styled.button`
@@ -84,14 +86,15 @@ export const ProjectCard = ({ title, secondaryText, coverImage, deploy, href, te
       <Content>
         <Header>
           {coverImage && <CoverImage src={coverImage} />}
-          <CardText>
+          
+        </Header>
+        <ChipsContainer>
+        <CardText>
             {title && <Title>{title}</Title>}
             {secondaryText && <Description>{secondaryText}</Description>}
             <a href={href}><Button>To Code</Button></a>
             <a href={deploy}><Button>To Project</Button></a>
           </CardText>
-        </Header>
-        <ChipsContainer>
         {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
         </ChipsContainer>
       </Content>

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Main } from '../common/Main'
 
 const IntroContainer = styled.section`
-  width: 70%;
+  width: 60%;
   margin: 6em auto 0 auto;
   height: 12em;
   text-align: center;
