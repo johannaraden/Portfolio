@@ -3,22 +3,34 @@ import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
 import { Button } from './Button'
+import { DeviceSize } from '../common/Sizes'
+
 
 const CardContainer = styled.div`
   border-radius: 6px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
   background-color: white;
   box-sizing: border-box;
   margin: 1em;
-  padding: 2em;
-  width: 70%;
+  padding: 1em;
+  width: 90%;
   transition: ease-in 300ms;
   :hover {
     box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px 0px rgba(0,0,0,.12);
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px) translateY(-3px);
+  }
+  @media ${DeviceSize.tablet} {
+    width: 80%;
+    padding: 2em;
+    flex-direction: row; 
+
+  }
+  @media ${DeviceSize.laptop} {
+    width: 70%;
+    padding: 2em;
   }
 `
 
@@ -67,6 +79,13 @@ const VL = styled.div`
   border-right: 2px solid #5E6472;
 `
 
+const DL = styled.div`
+  width: 90%;
+  margin: 0 1em;
+  border-right: 2px solid red;
+`
+
+
 export const BlogSummary = ({ title, secondaryText, deploy, keywords }) => {
   
   return (
@@ -78,10 +97,23 @@ export const BlogSummary = ({ title, secondaryText, deploy, keywords }) => {
           <a href={deploy}><Button>Read more</Button></a>
         </CardText>
       </Header>
-      <VL></VL>
-      <ChipsContainer>
-      {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E'}} label={keyword}/>)}
-      </ChipsContainer>
+   
+      {window.screen.width < DeviceSize.tablet.replace( /(^.+\D)(\d+)(\D.+$)/i,'$2') ? 
+        <>
+          <DL></DL>
+        </>
+        : 
+        <>
+          <CardText>
+            
+          </CardText>
+        </>
+        }
+            <VL></VL>
+          <ChipsContainer>
+          {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E'}} label={keyword}/>)}
+          </ChipsContainer>
+          <DL></DL>
   </CardContainer>
   )
 }

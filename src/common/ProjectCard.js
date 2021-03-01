@@ -2,28 +2,8 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
-
-// const Card = styled.div`
-//   border-radius: 6px;
-//   background-color: var(--mdc-theme-surface, #fff);
-//   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
-//   display: flex;
-//   flex-direction: column; 
-//   box-sizing: border-box;
-//   margin: 3em;
-//   width: 35%;
-//   transition: all 0.3s ease-out;
-//   :hover {
-//     // box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px 0px rgba(0,0,0,.12);
-//     // -webkit-transform: translateX(-3px);
-//     // transform: translateX(-3px) translateY(-3px);
-//     transform: translateY(-5px) scale(1.005) translateZ(0);
-//     box-shadow: 0 24px 36px rgba(0,0,0,0.11),
-//       0 24px 46px var(--box-shadow-color);
-    
-//   }
-// `
-
+import Card from '../Card.js'
+import { DeviceSize } from './Sizes'
 
 
 const Header = styled.div`
@@ -44,12 +24,17 @@ const Title = styled.h1`
   font-size: 1.2em;
 `
 
+const SubTitle = styled(Title)`
+  font-style: italic;
+`
+
 const Description = styled.p`
 
 `
 
 const Content = styled.div`
   display:flex;
+  flex: 1 0 auto;
   flex-direction:column;
   justify-content: space-between;
 `
@@ -70,34 +55,34 @@ const Button = styled.button`
 `
 
 const ChipsContainer = styled.div`
-  display: flex;
+  flex: 1 0 auto;
   margin: 1em;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   > * {
     margin: .2em;
   }
 `
 
 
-export const ProjectCard = ({ title, secondaryText, coverImage, deploy, href, technologies }) => {
+export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy, href, technologies }) => {
 
   return (
-    <div className="card">
+    <Card>
+      <Header>
+        {coverImage && <CoverImage src={coverImage} />}
+      </Header>
       <Content>
-        <Header>
-          {coverImage && <CoverImage src={coverImage} />}
-          
-        </Header>
-        <ChipsContainer>
         <CardText>
-            {title && <Title>{title}</Title>}
-            {secondaryText && <Description>{secondaryText}</Description>}
-            <a href={href}><Button>To Code</Button></a>
-            <a href={deploy}><Button>To Project</Button></a>
-          </CardText>
-        {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
+          {subtitle && <SubTitle>{subtitle}</SubTitle>}
+          {title && <Title>{title}</Title>}
+          {secondaryText && <Description>{secondaryText}</Description>}
+          <a href={href}><Button>To Code</Button></a>
+          <a href={deploy}><Button>To Project</Button></a>
+        </CardText>
+        <ChipsContainer>
+          {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
         </ChipsContainer>
       </Content>
-    </div>
+    </Card>
   )
 }

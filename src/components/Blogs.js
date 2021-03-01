@@ -4,11 +4,11 @@ import { Headline } from 'common/Headline'
 import { Main } from '../common/Main'
 import { BlogSummary } from '../common/BlogSummary'
 import { HeadlineSection } from '../common/HeadlineSection'
+import { DeviceSize } from '../common/Sizes'
 import AOS from "aos"
 import "aos/dist/aos.css"
 
 const SummaryContainer = styled.section`
-  padding: 3em;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -21,14 +21,14 @@ const summary = [
 ]
 
 export const Blogs = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 500,
-      easing: "ease-out-quart",
-      once: true
-    })
-    AOS.refresh()
-  })
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 500,
+  //     easing: "ease-out-quart",
+  //     once: true
+  //   })
+  //   AOS.refresh()
+  // })
   return (
     <Main primary>
       <HeadlineSection>

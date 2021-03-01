@@ -2,6 +2,8 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
+import { DeviceSize } from '../common/Sizes'
+
 
 const CardContainer = styled.div`
   border-radius: 6px;
@@ -11,13 +13,19 @@ const CardContainer = styled.div`
   background-color: white;
   box-sizing: border-box;
   margin: 1em;
-  padding: 2em;
-  width: 70%;
+  padding: 1em;
+  // width: 99%;
   transition: ease-in 300ms;
   :hover {
     box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px 0px rgba(0,0,0,.12);
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px) translateY(-3px);
+  }
+  @media ${DeviceSize.tablet} {
+    // width: 80%;
+  }
+  @media ${DeviceSize.laptop} {
+  //  width: 70%;
   }
 `
 
@@ -57,7 +65,6 @@ const Button = styled.button`
 const ChipsContainer = styled.div`
   display: flex;
   margin: 1em;
-  flex-wrap: wrap;
   align-self: center;
   > * {
     margin: .2em;
@@ -71,8 +78,6 @@ const VL = styled.div`
 `
 
 export const ProjectSummary = ({ title, secondaryText, deploy, href, technologies }) => {
-  
-  
   
   return (
     <CardContainer>

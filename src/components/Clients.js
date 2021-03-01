@@ -15,8 +15,8 @@ const ProjectsContainer = styled.section`
 `
 
 const projects = [
-  { title: 'Upcoming', coverImage: Car, secondaryText: '', deploy: '', href: '', technologies: ['Wordpress', 'Image editing', 'SEO-writing', 'Design'] },
-  { title: 'Upcoming', coverImage: Car, secondaryText: '', deploy: '', href: '', technologies: ['JavaScript', 'React', 'Redux', 'Frontity', 'Wordpress'] },
+  { title: 'Wordpress site', subtitle: 'Upcoming', coverImage: Car, secondaryText: '', deploy: '', href: '', technologies: ['Wordpress', 'Image editing', 'SEO-writing', 'Design'] },
+  { title: 'Frontity wordpress theme', subtitle: 'Upcoming', coverImage: Car, secondaryText: '', deploy: '', href: '', technologies: ['JavaScript', 'React', 'Redux', 'Frontity', 'Wordpress'] },
 ]
 
 
@@ -31,6 +31,7 @@ export const Clients = () => {
           <ProjectCard
             coverImage={project.coverImage}
             title={project.title}
+            subtitle={project.subtitle}
             secondaryText={project.secondaryText}
             technologies={project.technologies}
             deploy={project.deploy}
@@ -39,5 +40,5 @@ export const Clients = () => {
         )}
       </ProjectsContainer>
     </Main>
-)
+  )
 }
