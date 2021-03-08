@@ -2,12 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { Headline } from 'common/Headline'
 import { Main } from '../common/Main'
-import { ProjectSummary } from '../common/ProjectSummary'
 import { HeadlineSection } from '../common/HeadlineSection'
+import { SummaryCard } from '../common/SummaryCard'
+
 
 
 const SummaryContainer = styled.section`
-  padding: 3em;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -26,8 +26,8 @@ export const More = () => {
         <Headline title='more projects' />
       </HeadlineSection>
       <SummaryContainer>
-        {summary.map((project) =>
-          <ProjectSummary
+         {summary.map((project) =>
+          <SummaryCard
             title={project.title}
             secondaryText={project.secondaryText}
             technologies={project.technologies}
@@ -37,5 +37,5 @@ export const More = () => {
         )}
       </SummaryContainer>
     </Main>
-)
+  )
 }

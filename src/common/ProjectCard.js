@@ -80,7 +80,7 @@ export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy
           <a href={deploy}><Button>To Project</Button></a>
         </CardText>
         <ChipsContainer>
-          {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E'}} label={tech}/>)}
+          {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E', color: 'white'}} label={tech}/>)}
         </ChipsContainer>
       </Content>
     </Card>

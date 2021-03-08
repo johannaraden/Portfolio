@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { Headline } from 'common/Headline'
 import { Main } from '../common/Main'
-import { BlogSummary } from '../common/BlogSummary'
 import { HeadlineSection } from '../common/HeadlineSection'
 import { DeviceSize } from '../common/Sizes'
+import { SummaryCard } from '../common/SummaryCard'
 import AOS from "aos"
 import "aos/dist/aos.css"
 
@@ -36,7 +36,7 @@ export const Blogs = () => {
       </HeadlineSection>
       <SummaryContainer>
         {summary.map((post) =>
-          <BlogSummary
+          <SummaryCard
             title={post.title}
             secondaryText={post.secondaryText}
             keywords={post.keywords}

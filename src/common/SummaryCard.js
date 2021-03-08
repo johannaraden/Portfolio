@@ -14,7 +14,7 @@ const CardContainer = styled.div`
   background-color: white;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em;
+  padding: 3em 2em 2em 2em;
   width: 90%;
   transition: ease-in 300ms;
   :hover {
@@ -26,7 +26,6 @@ const CardContainer = styled.div`
     width: 80%;
     padding: 2em;
     flex-direction: row; 
-
   }
   @media ${DeviceSize.laptop} {
     width: 70%;
@@ -50,43 +49,38 @@ const Title = styled.h1`
 `
 
 const Description = styled.p`
-
+  margin-bottom: 2em;
 `
-
-// const Button = styled.button`
-//   border-radius: 200px;
-//   border: none;
-//   padding: .5em 1em;
-//   cursor: pointer;
-//   background-color: #5E6472;
-//   color: white;
-//   margin-right: .3em;
-// `
 
 const ChipsContainer = styled.div`
   display: flex;
-  margin: 1em;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
   flex-wrap: wrap;
-  align-self: center;
+  align-self: left;
+  padding-top: 2em; 
+  padding-left: 1em; 
+  align-content: center;
+  border-top: 1px solid grey;
+  align-content: baseline;
+  flex-direction: column;
   > * {
-    margin: .2em;
+    margin: 2.5em .5em 0 1.2em;
+  }
+  @media ${DeviceSize.tablet} {
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    border-left: 1px solid grey;
+    border-top: none;
+    > * {
+      margin: .2em;
+    }
+  }
   }
 `
 
-const VL = styled.div`
-  height: 100%;
-  margin: 0 1em;
-  border-right: 2px solid #5E6472;
-`
-
-const DL = styled.div`
-  width: 90%;
-  margin: 0 1em;
-  border-right: 2px solid red;
-`
-
-
-export const BlogSummary = ({ title, secondaryText, deploy, keywords }) => {
+export const SummaryCard = ({ title, secondaryText, deploy, keywords, href, technologies }) => {
   
   return (
     <CardContainer>
@@ -94,26 +88,24 @@ export const BlogSummary = ({ title, secondaryText, deploy, keywords }) => {
         <CardText>
           {title && <Title>{title}</Title>}
           {secondaryText && <Description>{secondaryText}</Description>}
-          <a href={deploy}><Button>Read more</Button></a>
+          {/* href only used in summary for "more projects" */}
+          {href && <a href={href}><Button>To Code</Button></a>}
+          {deploy && <a href={deploy}><Button>Read more</Button></a>}
         </CardText>
       </Header>
-   
-      {window.screen.width < DeviceSize.tablet.replace( /(^.+\D)(\d+)(\D.+$)/i,'$2') ? 
-        <>
-          <DL></DL>
-        </>
-        : 
-        <>
-          <CardText>
-            
-          </CardText>
-        </>
-        }
-            <VL></VL>
+        {/* {window.screen.width < DeviceSize.tablet.replace( /(^.+\D)(\d+)(\D.+$)/i,'$2') ? 
+          <>
+            <DL></DL>
+          </> 
+          : 
+          <>
+          </>
+          } */}
           <ChipsContainer>
-          {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E'}} label={keyword}/>)}
+          {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={tech}/>)}
+          {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={keyword}/>)}
           </ChipsContainer>
-          <DL></DL>
+       
   </CardContainer>
   )
 }
