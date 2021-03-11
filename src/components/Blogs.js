@@ -21,14 +21,14 @@ const summary = [
 ]
 
 export const Blogs = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 500,
-  //     easing: "ease-out-quart",
-  //     once: true
-  //   })
-  //   AOS.refresh()
-  // })
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: "ease-out-quart",
+      once: true
+    })
+    AOS.refresh()
+  })
   return (
     <Main primary>
       <HeadlineSection>

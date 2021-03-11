@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
 import { Button } from './Button'
 import { DeviceSize } from '../common/Sizes'
+import '../common/Animation.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 
 const CardContainer = styled.div`
@@ -81,9 +85,16 @@ const ChipsContainer = styled.div`
 `
 
 export const SummaryCard = ({ title, secondaryText, deploy, keywords, href, technologies }) => {
-  
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-out-back'
+    })    
+  })
   return (
-    <CardContainer>
+    <CardContainer
+      id="trigger"
+    >
       <Header>
         <CardText>
           {title && <Title>{title}</Title>}
@@ -101,7 +112,13 @@ export const SummaryCard = ({ title, secondaryText, deploy, keywords, href, tech
           <>
           </>
           } */}
-          <ChipsContainer>
+          <ChipsContainer
+          data-aos="example-anim2"
+          data-aos="fade-up"
+          data-aos-duration="30000"
+          data-aos-anchor="#trigger"
+          data-aos-anchor-placement="top-center"
+          >
           {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={tech}/>)}
           {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={keyword}/>)}
           </ChipsContainer>
