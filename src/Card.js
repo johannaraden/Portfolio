@@ -9,6 +9,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column; 
   box-sizing: border-box;
+  justify-content: space-between;
   overflow: hidden;
   position: relative;
   margin: 2em 0;

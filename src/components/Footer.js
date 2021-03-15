@@ -51,12 +51,7 @@ transition: all 0.3s ease-out;
 
 export const Footer = () => {
   return (
-  <div data-aos="fade-up"
-    // id="trigger-left"
-    data-aos-duration="30000"
-    data-aos-delay="1000"
-    // data-aos-anchor="#trigger-left"
-    data-aos-anchor-placement="bottom-bottom">
+  <div>
     <FooterContainer>
       <HeadlineContainer>CONTACT</HeadlineContainer>
       <ContactContainer>

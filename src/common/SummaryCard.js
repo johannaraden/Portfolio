@@ -2,7 +2,7 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
-import { Button } from './Button'
+import Button from './Button'
 import { DeviceSize } from '../common/Sizes'
 
 
@@ -22,6 +22,7 @@ const CardContainer = styled.div`
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px) translateY(-3px);
   }
+  // Row structure for bigger devices
   @media ${DeviceSize.tablet} {
     width: 80%;
     padding: 2em;
@@ -80,7 +81,7 @@ const ChipsContainer = styled.div`
   }
 `
 
-export const SummaryCard = ({ title, secondaryText, deploy, keywords, href, technologies }) => {
+export const SummaryCard = ({ title, secondaryText, deploy, text, keywords, href, technologies }) => {
   
   return (
     <CardContainer>
@@ -90,7 +91,8 @@ export const SummaryCard = ({ title, secondaryText, deploy, keywords, href, tech
           {secondaryText && <Description>{secondaryText}</Description>}
           {/* href only used in summary for "more projects" */}
           {href && <a href={href}><Button>To Code</Button></a>}
-          {deploy && <a href={deploy}><Button>Read more</Button></a>}
+          {deploy && <a href={deploy}><Button>To project</Button></a>}
+          {text && <a href={text}><Button>Read more</Button></a>}
         </CardText>
       </Header>
         {/* {window.screen.width < DeviceSize.tablet.replace( /(^.+\D)(\d+)(\D.+$)/i,'$2') ? 
@@ -105,7 +107,6 @@ export const SummaryCard = ({ title, secondaryText, deploy, keywords, href, tech
           {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={tech}/>)}
           {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={keyword}/>)}
           </ChipsContainer>
-       
   </CardContainer>
   )
 }
