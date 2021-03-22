@@ -4,7 +4,7 @@ import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
 import Card from '../Card.js'
 import Button from './Button.js'
-import { DeviceSize } from './Sizes'
+
 
 
 const Header = styled.div`

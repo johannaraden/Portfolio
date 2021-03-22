@@ -4,7 +4,7 @@ import { Icon } from 'common/Icon'
 import Git from '../img/Web/github.svg'
 import Linkedin from '../img/Web/linkedin.svg'
 import '../common/Animation.css'
-import { DeviceSize } from '../common/Sizes'
+
 
 const FooterContainer = styled.section`
   width: 100%;
