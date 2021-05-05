@@ -9,7 +9,7 @@ import '../common/Animation.css'
 const FooterContainer = styled.section`
   width: 100%;
   height: 14em;
-  background-color: #5E6472;
+  background-color: #387c6d;
   color: white;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ const FooterContainer = styled.section`
 `
 const IconContainer = styled.section`
   width: 100%;
-  background-color: #5E6472;
+  background-color: #387c6d;
   color: white;
   display: flex;
   justify-content: center;+
@@ -45,7 +45,7 @@ border-radius: 200px;
 margin: 2em;
 transition: all 0.3s ease-out;
 &:hover {
-  background: #FFA69E;
+  background: #e9896a;
 }
 `
 

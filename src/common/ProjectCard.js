@@ -7,9 +7,33 @@ import Button from './Button.js'
 
 
 
+
+
+const Overlay = styled.div`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+  transition: .5s ease;
+  background-color: #387c6d;
+  &:hover {
+    opacity: 0;
+  }
+`
+
 const Header = styled.div`
   display: flex;
   flex-direction: column;
+  position: relative;
+  &:hover {
+    ${Overlay} {
+      opacity: 0;
+    }
+   }
 `
 
 const CoverImage = styled.img`
@@ -62,6 +86,7 @@ export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy
       <Header>
         {coverImage && <CoverImage src={coverImage} />}
       </Header>
+      <Overlay></Overlay>
       <Content>
         <CardText>
           {subtitle && <SubTitle>{subtitle}</SubTitle>}
@@ -71,7 +96,7 @@ export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy
           <a href={deploy}><Button>To Project</Button></a>
         </CardText>
         <ChipsContainer>
-          {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#FFA69E', color: 'white'}} label={tech}/>)}
+          {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#e9896a', color: 'white'}} label={tech}/>)}
         </ChipsContainer>
       </Content>
     </Card>

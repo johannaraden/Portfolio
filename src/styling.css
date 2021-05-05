@@ -38,7 +38,7 @@
     position: absolute; 
     height: 100%;
     visibility: hidden;
-    background: var(--bg-color);
+    background: var(--box-shadow-color);
     left: 10px;
     z-index: 0;
     transition: transform 0.3s ease-out;

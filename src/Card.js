@@ -22,6 +22,7 @@ const Card = styled.div`
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: 0 5px 10px rgba(0,0,0,0.1),
       0 5px 10px var(--grey);
+
   }
   
   @media ${DeviceSize.tablet} {

@@ -4,7 +4,7 @@ import './Animation.css'
 
 
 const Title = styled.h1`
-  background-color: #AED9E0;
+  background-color: #387c6d;
   padding: .2em;
   max-width: 8em;
   color: white;

@@ -104,8 +104,8 @@ export const SummaryCard = ({ title, secondaryText, deploy, text, keywords, href
           </>
           } */}
           <ChipsContainer>
-          {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={tech}/>)}
-          {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#FFA69E', color: 'white', margin:'0.2em'}} label={keyword}/>)}
+          {technologies && technologies.map((tech) => <Chip style={{ backgroundColor: '#e9896a', color: 'white', margin:'0.2em'}} label={tech}/>)}
+          {keywords && keywords.map((keyword) => <Chip style={{ backgroundColor: '#e9896a', color: 'white', margin:'0.2em'}} label={keyword}/>)}
           </ChipsContainer>
   </CardContainer>
   )

@@ -12,7 +12,7 @@ const HeaderContainer = styled.div`
   width: 100%;
   margin: 0;
   height: 40%;
-  background-color: #AED9E0;
+  background-color: #343f56;
   background-size: cover;
   padding-bottom: 4em;
 `
@@ -29,7 +29,7 @@ const IconCircle = styled.div`
   margin: .5em;
   transition: all 0.3s ease-out;
   &:hover {
-    background: #5E6472;
+    background: #e9896a;
   }
 `
 
@@ -84,7 +84,7 @@ const Img = styled.img`
 
 const Profession = styled.p`
   font-size: 6em;
-  color: #FAF3DD; 
+  color: #f8f5f1; 
   z-index: 100;
   font-weight: bold;
   margin: 0;
