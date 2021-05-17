@@ -2,5 +2,5 @@
 # how it should build the JavaScript assets to deploy from.
 [build]
   base = "/"
-  publish = "build/"
+  publish = "public/"
   command = "npm run build"
