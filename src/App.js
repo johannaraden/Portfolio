@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from 'components/Header'
 import { Footer } from 'components/Footer'
+import { Clients } from 'components/Clients'
 import { Links } from 'components/Links'
 import { Tech } from 'components/Tech'
 import { Skills } from 'components/Skills'
@@ -15,12 +16,13 @@ export const App = () => {
     <>
       <Header />
       <Intro />
-      <Tech />
+      {/* <Tech /> */}
       <Projects />
+      <Clients/>
       <More />
       <Skills />
       <Blogs />
-      <Links />
+      {/* <Links /> */}
       <Footer />
     </>
   )

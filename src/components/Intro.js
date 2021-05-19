@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Main } from '../common/Main'
 
 const IntroContainer = styled.section`
-  width: 70%;
+  width: 50%;
   margin: 6em auto 0 auto;
   height: 12em;
   text-align: center;
@@ -11,7 +11,7 @@ const IntroContainer = styled.section`
      display: inline;
    }
    > h2 {
-     color: #FFA69E;
+     color: #e9896a;
      font-size: 2.2em;
      font-weight: bold;
    }

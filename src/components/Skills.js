@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import { Headline } from '../common/Headline'
 import { Main } from '../common/Main'
+import { HeadlineSection } from '../common/HeadlineSection'
 
 const SkillsContainer = styled.section`
   width: 100%;
@@ -20,47 +21,39 @@ const DetailsContainer = styled.section`
       margin: .5em;
     }
     > h5 {
-      color: #AED9E0;
+      color: #387c6d;
     }
 `
+const code = ["JavaScript ES6","React", "HTML", "CSS3", "Redux", "Node.js", "React Native", "REST-API"]
+
+const tools = ["Visual Studio Code", "Frontity", "Postman", "MongoDB", "Heroku", "Netlify", "Wordpress", "Figma", "Brackets", "Slack", "Trello"]
+
+const more = ["Coaching","Teaching","Rhetoric","Event coordinating","Mob programming","Project management","Communication strategy",]
 
 export const Skills = () => {
   return (
-    <Main >
-      <Headline title='My skills'/>
+    <Main>
+      <HeadlineSection>
+        <Headline title='my skills'/>
+      </HeadlineSection>
         <SkillsContainer>
           <DetailsContainer>
             <h5>CODE</h5>
-            <p>JavaScript ES6</p>
-            <p>React</p>
-            <p>HTML</p>
-            <p>CSS3</p>
-            <p>Redux</p>
-            <p>Node.js</p>
-            <p>React Native</p>
-            <p>REST-API</p>
+            {code.map((code) => 
+              <p>{code}</p>
+            )}
           </DetailsContainer>
           <DetailsContainer>
             <h5>TOOLBOX</h5>
-            <p>Slack</p>
-            <p>Postman</p>
-            <p>Trello</p>
-            <p>MongoDB</p>
-            <p>Heroku</p>
-            <p>Netlify</p>
-            <p>Figma</p>
-            <p>Brackets</p>
-            <p>Visual Studio Code</p>
+            {tools.map((tool) => 
+              <p>{tool}</p>
+            )}
           </DetailsContainer>
           <DetailsContainer>
             <h5>MORE</h5>
-            <p>Mob programming</p>
-            <p>Event coordinating</p>
-            <p>Project management</p>
-            <p>Teaching</p>
-            <p>Rhetoric</p>
-            <p>Coaching</p>
-            <p>Communication strategy</p>
+            {more.map((more) => 
+              <p>{more}</p>
+            )}
           </DetailsContainer>
       </SkillsContainer>
     </Main>

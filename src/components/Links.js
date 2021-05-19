@@ -4,7 +4,9 @@ import styled from 'styled-components'
 import { Icon } from 'common/Icon'
 import Git from '../img/Web/github.svg'
 import Linkedin from '../img/Web/linkedin.svg'
+import { HeadlineSection } from '../common/HeadlineSection'
 import { Main } from '../common/Main'
+import { DeviceSize } from '../common/Sizes'
 
 
 const IconWrapper = styled.div`
@@ -15,12 +17,19 @@ margin: auto;
 `
 
 const IconCircle = styled.div`
-border: 4px solid #FFA69E;
 border-radius: 200px;
-margin: 2em;
+// margin: 1em;
 transition: all 0.3s ease-out;
-&:hover {
-  border: 4px solid #AED9E0;
+// &:hover {
+//   background: #5E6472;
+// }
+@media ${DeviceSize.tablet} {
+  margin: 1.5em;
+  background: #5E6472;
+}
+@media ${DeviceSize.laptop} {
+  margin: 2em;
+  background: red;
 }
 `
 
@@ -28,7 +37,9 @@ export const Links = () => {
  
   return (
     <Main>
-    <Headline title='for more'/>
+     <HeadlineSection>
+        <Headline title='for more' />
+      </HeadlineSection>
     <IconWrapper>
       <IconCircle>
         <Icon src={Git} alt='git-icon' href='https://github.com/johannaraden'/>
