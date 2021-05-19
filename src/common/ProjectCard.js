@@ -41,7 +41,7 @@ const Card = styled.div`
   --bg-color: #b8f2e615;
   --bg-color-light: #ffeeba;
   --grey: #5E6472;
-  --box-shadow-color: #FFA69E;
+  --box-shadow-color: black;
   :hover {
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: 0 5px 10px rgba(0,0,0,0.1),
