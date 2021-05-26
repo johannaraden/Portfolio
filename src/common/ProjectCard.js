@@ -65,8 +65,11 @@ const Card = styled.div`
 const OverlayText = styled.h3`
   color: white;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   padding: 20%;
+  @media ${DeviceSize.tablet} {
+    font-size: 4em;
+  }
 `
 
 const Header = styled.div`

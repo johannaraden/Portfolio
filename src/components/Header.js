@@ -38,14 +38,15 @@ const MainContainer = styled.div`
   flex-direction: column;
   justify-content: end;
   margin-top: 4em;
+  margin: auto;
+  padding-left: 2em;
   @media ${DeviceSize.tablet} {
-    width: 80%;
+    // width: 80%;
     flex-direction: row;
   }
   @media ${DeviceSize.laptop} {
-    width: 60%;
+    // width: 60%;
     flex-direction: row;
-    margin: auto;
   }
 `
 
@@ -67,7 +68,7 @@ const ImgContainer = styled.figure`
   margin: auto;
   margin-top: 2em;
   z-index: 0;
-  position: relative;
+  // position: relative;
 `
 
 // How to deal with the img 
@@ -83,11 +84,14 @@ const Img = styled.img`
 `
 
 const Profession = styled.p`
-  font-size: 6em;
+  font-size: 4em;
   color: #f8f5f1; 
   z-index: 100;
   font-weight: bold;
   margin: 0;
+  @media ${DeviceSize.tablet} {
+    font-size: 6em;
+  }
   @media ${DeviceSize.tablet} {
     font-size: 6em;
   }
