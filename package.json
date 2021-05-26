@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.14",
+    "aos": "^2.3.4",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.1",
     "eslint-config-airbnb": "^18.1.0",
