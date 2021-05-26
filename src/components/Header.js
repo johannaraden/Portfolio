@@ -36,31 +36,40 @@ const IconCircle = styled.div`
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  margin-top: 4em;
-  margin: auto;
-  padding-left: 2em;
+  // justify-content: end;
+  // margin-top: 4em;
+  // margin: auto;
+  // padding-left: 2em;
   @media ${DeviceSize.tablet} {
     // width: 80%;
     flex-direction: row;
   }
   @media ${DeviceSize.laptop} {
-    // width: 60%;
+    width: 60%;
     flex-direction: row;
   }
 `
 
 const IntroContainer = styled.section`
-  width: 100%;
-  margin-left: 5%;
+  width: min-content;
+  border: 1px solid red;
+  // margin-left: 5%;
   z-index: 1;
   position: relative;
   display: flex;
-  align-items: center;
+  // align-items: center;
   flex-direction: column;
+  & > * {
+    text-align: center;
+    border: 1px solid red;
+    width: min-content;
+  }
   @media ${DeviceSize.tablet} {
-    margin-left: 10%;
-    align-self: flex-end;
+    border: 2px solid pink;
+    width: 90%;
+    & > * {
+      text-align: left;
+    }
   }
 `
 const ImgContainer = styled.figure`
@@ -89,6 +98,7 @@ const Profession = styled.p`
   z-index: 100;
   font-weight: bold;
   margin: 0;
+  // align-self: start;
   @media ${DeviceSize.tablet} {
     font-size: 6em;
   }
@@ -104,8 +114,7 @@ const Name = styled.p`
   color: #5E6472;
   font-weight: 1.5em;
   font-size: 1em;
-  align-self: start;
-  margin: 0;
+  // margin: 0;
   @media ${DeviceSize.tablet} {
     font-weight: 2em;
     font-size: 1.2em;
