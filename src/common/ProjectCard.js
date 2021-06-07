@@ -2,6 +2,7 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
+import { isDesktop, isMobile } from 'react-device-detect'
 // import Card from '../Card.js'
 import { DeviceSize } from './Sizes.js'
 import Button from './Button.js'
@@ -16,6 +17,9 @@ const Overlay = styled.div`
   height: 100%;
   width: 100%;
   visibility:visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition:visibility 0s linear 0.5s,opacity 0.5s linear;
   background-color: #387c6d;
   transition: opacity 1s ease;
@@ -64,9 +68,9 @@ const Card = styled.div`
 
 const OverlayText = styled.h3`
   color: white;
-  text-align: center;
   font-size: 2em;
-  padding: 20%;
+  text-align: center;
+  justify-content: center;
   @media ${DeviceSize.tablet} {
     font-size: 4em;
   }
@@ -127,7 +131,8 @@ export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy
       <Header>
         {coverImage && <CoverImage src={coverImage} />}
       </Header>
-      <Overlay><OverlayText>{title}</OverlayText></Overlay>
+      {/* Checking if used on desktop -> then mount overlay */}
+      {isDesktop && <Overlay><OverlayText>{title}</OverlayText></Overlay>}
       <Content>
         <CardText>
           {subtitle && <SubTitle>{subtitle}</SubTitle>}

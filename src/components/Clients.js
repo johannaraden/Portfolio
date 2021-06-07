@@ -5,13 +5,22 @@ import { ProjectCard } from '../common/ProjectCard'
 import { Main } from '../common/Main'
 import Car from '../img/Web/no-img.jpg'
 import { HeadlineSection } from '../common/HeadlineSection'
+import { DeviceSize } from '../common/Sizes'
 
 
 const ProjectsContainer = styled.section`
-  padding: 3em;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  @media ${DeviceSize.mobileS} {
+    padding: 1.5em;
+    }
+  @media ${DeviceSize.tablet} {
+    padding: 2em;
+    }
+    @media ${DeviceSize.laptop} {
+      padding: 3em;
+      }
 `
 
 const projects = [

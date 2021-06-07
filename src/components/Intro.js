@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Main } from '../common/Main'
+import { DeviceSize } from '../common/Sizes'
+
 
 const IntroContainer = styled.section`
-  width: 50%;
-  margin: 6em auto 0 auto;
+  width: 70%;
+  margin: 2em auto 0 auto;
   height: 12em;
   text-align: center;
    > * {
@@ -18,6 +20,10 @@ const IntroContainer = styled.section`
    > p {
      font-weight: 1.3em;
    }
+   @media ${DeviceSize.tablet} {
+    width: 50%;
+    margin: 6em auto 0 auto;
+  }
 `
 
 
@@ -26,7 +32,7 @@ export const Intro = () => {
     <Main>
       <IntroContainer>
         <h2>hello</h2>
-        <p>A curious frontend developer who found coding through the interest for communication and design. I aspire to take advantage of my skills in communication, languages, design and combining them with coding in order to make functional, understandable and aesthetically pleasing applications. </p>
+        <p>A curious frontend developer who found coding through the interest in communication and design. I aspire to take advantage of my skills in communication, languages, design and combining them with coding in order to make functional, understandable and aesthetically pleasing applications. </p>
       </IntroContainer>
     </Main>
   )
