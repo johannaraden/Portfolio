@@ -26,9 +26,10 @@ const HeadlineContainer = styled.section`
   align-self: center;
   text-align: center;
   margin-top: 4em;
-  margin-bottom: -1em;
+  margin-bottom: -.5em;
   width: 8em;
-  font-weight: 800;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.5em;
   color: white;
 `
 
@@ -37,6 +38,16 @@ const ContactContainer = styled.section`
   color: white; 
   text-align: center;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  > * {
+    color: white;
+    margin-bottom: .5em;
+    text-decoration:none;
+  }
+  > a:hover {
+    text-decoration: underline;
+  }
 `
 
 // Dry this part!! 
@@ -53,11 +64,11 @@ export const Footer = () => {
   return (
   <div>
     <FooterContainer>
-      <HeadlineContainer>CONTACT</HeadlineContainer>
+      <HeadlineContainer>contact</HeadlineContainer>
       <ContactContainer>
         <p>Johanna Rådén</p>
-        <p>+46730303320</p>
-        <p>johanna.raden@gmail.com</p>
+        <a href="callto:+46730303320">+46730303320</a>
+        <a href="mailto:johanna.raden@gmail.com">johanna.raden@gmail.com</a>
       </ContactContainer>
     </FooterContainer>
     <IconContainer>

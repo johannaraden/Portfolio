@@ -89,7 +89,7 @@ const Profession = styled.p`
   font-size: 4em;
   color: #f8f5f1; 
   z-index: 100;
-  font-weight: bold;
+  font-family: 'Cabin', sans-serif;
   @media ${DeviceSize.tablet} {
     font-size: 6em;
   }
@@ -105,6 +105,7 @@ const Name = styled.p`
   color: #5E6472;
   font-weight: 1.5em;
   font-size: 1em;
+  font-family:'Cabin', sans-serif;
   @media ${DeviceSize.tablet} {
     font-weight: 2em;
     font-size: 1.2em;

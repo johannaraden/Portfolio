@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="926" viewBox="0 0 428 926">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-wireframe">
+      <rect width="428" height="926"/>
+    </clipPath>
+  </defs>
+  <g id="wireframe" clip-path="url(#clip-wireframe)">
+    <rect width="428" height="926" fill="#fff"/>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(37 209)" stroke="#000" stroke-width="1">
+      <rect width="354" height="508" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="353" height="507" rx="5.5" fill="none"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(108 103)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="106.5" cy="106.5" r="106.5" stroke="none"/>
+      <circle cx="106.5" cy="106.5" r="106" fill="none"/>
+    </g>
+    <text id="_" data-name="👨‍🎓" transform="translate(136 256)" fill="#707070" font-size="132" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">👨‍🎓</tspan></text>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(253 235)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="34" cy="34" r="34" stroke="none"/>
+      <circle cx="34" cy="34" r="33.5" fill="none"/>
+    </g>
+    <g id="Rectangle_1477" data-name="Rectangle 1477" transform="translate(18 299)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="393" height="304" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="392" height="303" rx="5.5" fill="none"/>
+    </g>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(386 492) rotate(-180)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+      <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+    </g>
+    <text id="C" transform="translate(324 455)" fill="#707070" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="Advanced" transform="translate(314 473)" fill="#707070" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Advanced</tspan></text>
+    <text id="_25_" data-name="25%" transform="translate(328 515)" fill="#707070" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">25%</tspan></text>
+    <text id="C-2" data-name="C" transform="translate(276 280)" fill="#707070" font-size="30" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(3 62)">
+      <g id="Ellipse_14-2" data-name="Ellipse 14" transform="translate(137 430) rotate(-180)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+        <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+      </g>
+      <text id="A" transform="translate(75 393)" fill="#707070" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+      <text id="Beginner" transform="translate(68 409)" fill="#707070" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Beginner</tspan></text>
+      <text id="_0_" data-name="0%" transform="translate(81 453)" fill="#707070" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">0%</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(126 62)">
+      <g id="Ellipse_14-3" data-name="Ellipse 14" transform="translate(137 430) rotate(-180)" fill="#dbdbdb" stroke="#707070" stroke-width="1">
+        <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+        <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+      </g>
+      <text id="Intermediate" transform="translate(61 409)" fill="#707070" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Intermediate</tspan></text>
+      <text id="_0_2" data-name="0%" transform="translate(82 453)" fill="#707070" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">0%</tspan></text>
+      <text id="B" transform="translate(76 393)" fill="#707070" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">B</tspan></text>
+    </g>
+    <g id="Menu" transform="translate(18 21)">
+      <path id="Menu-2" data-name="Menu" d="M0,35V30H23.127v5ZM0,20V15H37v5ZM0,5V0H37V5Z" transform="translate(0 1)"/>
+      <rect id="Rectangle_1446" data-name="Rectangle 1446" width="37" height="37" fill="none"/>
+    </g>
+    <text id="Change_your_level" data-name="Change your level" transform="translate(137 357)" fill="#707070" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Change your level</tspan></text>
+    <g id="Close" transform="translate(381 316)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_1445" data-name="Rectangle 1445" width="16" height="16" fill="none"/>
+      <path id="Union_3" data-name="Union 3" d="M7.778,9.192,1.414,15.557,0,14.142,6.364,7.778,0,1.414,1.414,0,7.778,6.364,14.142,0l1.415,1.414L9.192,7.778l6.364,6.364-1.415,1.415Z" fill="#5a5a5a"/>
+    </g>
+    <g id="Switch_On" data-name="Switch On" transform="translate(329 539)">
+      <g id="Rectangle_1002" data-name="Rectangle 1002" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="16" height="16" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Switch_On-2" data-name="Switch On" transform="translate(83 539)">
+      <g id="Rectangle_1002-2" data-name="Rectangle 1002" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="16" height="16" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Switch_On-3" data-name="Switch On" transform="translate(206 539)">
+      <g id="Rectangle_1002-3" data-name="Rectangle 1002" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="16" height="16" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Switch_On-4" data-name="Switch On" transform="translate(208 541)">
+      <g id="Rectangle_1002-4" data-name="Rectangle 1002" fill="#707070" stroke="#707070" stroke-width="1">
+        <rect width="12" height="12" rx="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="11" height="11" rx="5.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

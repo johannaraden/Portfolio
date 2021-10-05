@@ -17,7 +17,7 @@ const SkillsContainer = styled.section`
 `
 
 const DetailsContainer = styled.section`
-  width: 30%;
+  width: 25%;
   margin: .5em auto 2em auto;
   display: flex;
   justify-content: flex-start;
@@ -32,9 +32,11 @@ const DetailsContainer = styled.section`
       margin: .5em auto;
     }
 `
+const design = ["Adobe XD", "Figma", "Balsamiq", "Illustrator", "Wordpress", "Miro" ]
+
 const code = ["JavaScript ES6","React", "HTML", "CSS3", "Redux", "Node.js", "React Native", "REST-API"]
 
-const tools = ["Visual Studio Code", "Frontity", "Postman", "MongoDB", "Heroku", "Netlify", "Wordpress", "Figma", "Brackets", "Slack", "Trello"]
+const tools = ["Visual Studio Code", "Frontity", "Postman", "MongoDB", "Heroku", "Netlify", "Brackets"]
 
 const more = ["Coaching","Teaching","Rhetoric","Event coordinating","Mob programming","Project management","Communication strategy",]
 
@@ -45,6 +47,12 @@ export const Skills = () => {
         <Headline title='my skills'/>
       </HeadlineSection>
         <SkillsContainer>
+          <DetailsContainer>
+            <h5>UX/DESIGN</h5>
+              {design.map((design) => 
+                <p>{design}</p>
+              )}
+          </DetailsContainer>
           <DetailsContainer>
             <h5>CODE</h5>
             {code.map((code) => 

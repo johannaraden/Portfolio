@@ -8,6 +8,7 @@ const Button = styled.button`
   background-color: #343f56;
   color: white;
   margin-right: .3em;
+  font-family: 'Lato', sans-serif;
   :hover {
     background-color: white;
     color: #5E6472;

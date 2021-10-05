@@ -14,8 +14,9 @@ const IntroContainer = styled.section`
    }
    > h2 {
      color: #e9896a;
-     font-size: 2.2em;
+     font-size: 2.5em;
      font-weight: bold;
+     font-family:'Cabin', sans-serif;
    }
    > p {
      font-weight: 1.3em;
@@ -29,7 +30,7 @@ const IntroContainer = styled.section`
 
 export const Intro = () => {
   return (
-    <Main>
+    <Main primary>
       <IntroContainer>
         <h2>hello</h2>
         <p>A curious frontend developer who found coding through the interest in communication and design. I aspire to take advantage of my skills in communication, languages, design and combining them with coding in order to make functional, understandable and aesthetically pleasing applications. </p>

@@ -1,0 +1,392 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="492" height="967" viewBox="0 0 492 967">
+  <defs>
+    <filter id="Lens" x="285.829" y="33.635" width="16.926" height="16.927" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Combined_Shape" x="288.374" y="37.179" width="11.837" height="11.837" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="language-prototype-image.png"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <path id="Union_9" data-name="Union 9" d="M267.431,966c-1.439-1.047-5.546-1.191-9.769-1.191-2.063,0-4.385.041-6.844.085h-.02c-2.825.049-6.026.106-9.3.106-3.306,0-6.468-.057-9.259-.108h-.011c-2.352-.042-4.571-.083-6.517-.083-3.989,0-7.862.144-9.19,1.191H78a77.65,77.65,0,0,1-43.611-13.321A78.216,78.216,0,0,1,6.13,918.361,77.5,77.5,0,0,1,0,888V349.8c.967-.881,1.2-4.648,1.2-10.889,0-2.49-.037-5.373-.079-8.623C1.063,325.96,1,321.061,1,315.5s.063-10.46.118-14.783c.042-3.251.079-6.135.079-8.625,0-6.242-.23-10.009-1.2-10.89V265.8c.967-.881,1.2-4.648,1.2-10.889,0-2.49-.037-5.373-.079-8.624C1.063,241.955,1,237.051,1,231.5s.063-10.46.118-14.783c.042-3.251.079-6.135.079-8.624,0-6.242-.23-10.009-1.2-10.889V167.572c.942-.978,1.159-3.615,1.159-7.174,0-1.42-.034-2.986-.07-4.653C1.045,153.754,1,151.7,1,149.5c0-2.659.112-5.185.21-7.414.082-1.852.156-3.531.156-4.99,0-2.885-.285-4.913-1.366-5.723V78A77.641,77.641,0,0,1,13.321,34.39,78.211,78.211,0,0,1,47.639,6.13,77.5,77.5,0,0,1,78,0H407A77.641,77.641,0,0,1,450.61,13.321a78.224,78.224,0,0,1,28.26,34.318A77.518,77.518,0,0,1,485,78V218.815c-1.082.69-1.661,3.438-1.822,8.648-.035,1.134-.05,2.371-.05,3.7,0,4.337.164,9.65.347,15.583v.014c.246,7.951.524,16.963.524,26.743,0,10.084-.258,18.886-.486,26.651-.166,5.652-.31,10.585-.309,14.711,0,6.876.408,11.51,1.8,13.5V888a77.65,77.65,0,0,1-13.321,43.61,78.228,78.228,0,0,1-34.318,28.259A77.5,77.5,0,0,1,407,966Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#282828"/>
+      <stop offset="0.489" stop-color="#3d3d3d"/>
+      <stop offset="1" stop-color="#313131"/>
+    </linearGradient>
+    <filter id="Edge" x="13.5" y="9.5" width="466" height="947.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.396"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.111" stop-color="#373737"/>
+      <stop offset="0.509" stop-color="#454545"/>
+      <stop offset="0.886" stop-color="#363636"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5d7d6d"/>
+      <stop offset="0.513" stop-color="#c2e6d2"/>
+      <stop offset="0.919" stop-color="#9ebfad"/>
+      <stop offset="1" stop-color="#a2c5b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="1" x2="0" xlink:href="#linear-gradient-4"/>
+    <filter id="Glass_Inner_Shadow" x="17.5" y="12.5" width="458" height="940" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9bbdad"/>
+      <stop offset="0.029" stop-color="#07140e"/>
+      <stop offset="0.174" stop-color="#c2e7d5"/>
+      <stop offset="0.833" stop-color="#ccf0e0"/>
+      <stop offset="0.978" stop-color="#0e251a"/>
+      <stop offset="1" stop-color="#839f93"/>
+    </linearGradient>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="language-prototype-image.png"/>
+    </pattern>
+    <clipPath id="clip-path-2">
+      <path id="Union_10" data-name="Union 10" d="M.674,102.512a5.536,5.536,0,0,1-.122-1.155V8.726a5.522,5.522,0,0,1,.1-1.018L2.006.458l1.785.715a1,1,0,0,1,.628.925l.308,105a1,1,0,0,1-.572.907L2.061,109Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1.016" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8eaf9e"/>
+      <stop offset="0.036" stop-color="#2f4b3e"/>
+      <stop offset="0.15" stop-color="#b1dbc7"/>
+      <stop offset="0.888" stop-color="#abd9c3"/>
+      <stop offset="0.94" stop-color="#2f473c"/>
+      <stop offset="1" stop-color="#9dbeac"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <path id="Union_11" data-name="Union 11" d="M1.326,67.5a1,1,0,0,1-.617-.923V2.7A1,1,0,0,1,1.2,1.845L3.3.595s1,1.141,1.273,7.725c.09,2.186.12,8.372.12,15.823,0,14.989-.12,35.1-.12,38.047-.194,4.768-1.244,6.137-1.244,6.137Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-10" x1="0.5" y1="0.041" x2="0.5" y2="0.939" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#374c42"/>
+      <stop offset="0.079" stop-color="#628776"/>
+      <stop offset="0.831" stop-color="#4f7463"/>
+      <stop offset="1" stop-color="#273930"/>
+    </linearGradient>
+    <clipPath id="clip-path-4">
+      <path id="Union_12" data-name="Union 12" d="M.64,67.382A1,1,0,0,1,0,66.45V2.606a1,1,0,0,1,.5-.866L2.723.456S3.594,1.63,3.865,8.213c.09,2.186.12,8.372.12,15.823,0,14.989-.12,35.1-.12,38.046-.194,4.769-.994,6.161-.994,6.161Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-13" x1="0.5" x2="0.5" y2="1.016" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8eaf9e"/>
+      <stop offset="0.036" stop-color="#2f4b3e"/>
+      <stop offset="0.15" stop-color="#98beac"/>
+      <stop offset="0.888" stop-color="#add2c0"/>
+      <stop offset="0.94" stop-color="#2f473c"/>
+      <stop offset="1" stop-color="#9dbeac"/>
+    </linearGradient>
+    <clipPath id="clip-path-5">
+      <path id="Union_13" data-name="Union 13" d="M3.246,36.237,1.515,35.82a1,1,0,0,1-.628-.465l-.42-.715a1,1,0,0,1-.139-.507V2.022l.478-.694A1,1,0,0,1,1.422.917L3.2.54s1.076.875,1.217,4.877c.035.984.055,6.882.055,12.653q0,.033,0,.066t0,.066c0,5.375-.017,10.607-.055,11.615-.2,5.195-1.085,6.422-1.167,6.422Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-14" x1="0.5" y1="0.041" x2="0.5" y2="0.939" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#455f53"/>
+      <stop offset="0.079" stop-color="#e2fbee"/>
+      <stop offset="0.831" stop-color="#eaf8ef"/>
+      <stop offset="1" stop-color="#344a40"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="0.572" y1="0.095" x2="0.278" y2="0.885" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0b0b0b"/>
+      <stop offset="0.545" stop-color="#141915"/>
+      <stop offset="1" stop-color="#403c39"/>
+    </linearGradient>
+    <filter id="Border" x="285.755" y="33.561" width="17.073" height="17.073" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur-5"/>
+      <feFlood flood-color="#fff" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Lens-2" x="285.829" y="33.635" width="16.926" height="16.927" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-6">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Lens)">
+        <ellipse id="Lens-3" data-name="Lens" cx="4.417" cy="4.417" rx="4.417" ry="4.417" transform="translate(3.37 11.31) rotate(-74)" fill="#10141e"/>
+      </g>
+    </clipPath>
+    <linearGradient id="linear-gradient-16" x1="0.271" y1="0.319" x2="0.77" y2="0.627" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b7def3"/>
+      <stop offset="1" stop-color="#2986f2"/>
+    </linearGradient>
+    <filter id="Combined_Shape-2" x="288.374" y="37.179" width="11.837" height="11.837" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-7"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-7">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Combined_Shape)">
+        <path id="Combined_Shape-3" data-name="Combined Shape" d="M4.42,8.836a4.418,4.418,0,1,1,4.244-3.2A4.421,4.421,0,0,1,4.42,8.836ZM4.416,1A3.418,3.418,0,1,0,7.7,5.36,3.42,3.42,0,0,0,4.416,1Z" transform="translate(4.42 3.86)" fill="none"/>
+      </g>
+    </clipPath>
+    <filter id="Speaker_" x="217.792" y="38.233" width="57.417" height="7.73" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur-8"/>
+      <feFlood flood-color="#fff" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-17" x1="0.5" y1="0.991" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#313131"/>
+    </linearGradient>
+    <clipPath id="clip-path-8">
+      <path id="Screen_Shape" data-name="Screen Shape" d="M86.112,0a5.519,5.519,0,0,1,5.52,5.517v3.31c0,10.407,9.874,24.276,26.288,24.276H296.08c16.414,0,26.288-13.869,26.288-24.276V5.517A5.519,5.519,0,0,1,327.888,0h43.056C394.723,0,414,17.267,414,43.034V852.966C414,878.733,394.723,896,370.944,896H43.056C19.277,896,0,878.733,0,852.966V43.034C0,17.267,19.277,0,43.056,0Z" fill="#04043d" opacity="0.671"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="106.5" cy="106.5" r="106.5" transform="translate(108 103)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern-6" width="1" height="1" viewBox="30.409 24.127 183.183 242.492">
+      <image preserveAspectRatio="none" width="244" height="323" xlink:href="../../Downloads/pexels-ketut-subiyanto-4350057.jpg"/>
+    </pattern>
+    <clipPath id="clip-path-10">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-language-prototype">
+      <rect width="492" height="967"/>
+    </clipPath>
+  </defs>
+  <g id="language-prototype" clip-path="url(#clip-language-prototype)">
+    <g id="iPhone_11_Front_Real_Green" data-name="iPhone 11/Front/Real Green" transform="translate(1)">
+      <g id="Body" transform="translate(3)">
+        <g id="Body_2" data-name="Body 2">
+          <path id="Body_2-2" data-name="Body 2" d="M216.524,966H78A77.637,77.637,0,0,1,34.39,952.679,78.226,78.226,0,0,1,6.13,918.361,77.509,77.509,0,0,1,0,888V349.8c1.353-1.232,1.264-8.113,1.118-19.512C1.063,325.96,1,321.061,1,315.5s.063-10.46.118-14.783c.146-11.4.234-18.282-1.118-19.514V265.8c1.353-1.232,1.264-8.113,1.118-19.513C1.063,241.955,1,237.051,1,231.5s.063-10.46.118-14.782c.146-11.4.234-18.282-1.118-19.514V167.572c1.318-1.369,1.216-5.984,1.089-11.827C1.045,153.754,1,151.7,1,149.5c0-2.659.111-5.185.21-7.414.243-5.512.419-9.494-1.21-10.713V78A77.636,77.636,0,0,1,13.321,34.389,78.227,78.227,0,0,1,47.639,6.13,77.511,77.511,0,0,1,78,0H407a77.635,77.635,0,0,1,43.61,13.321,78.228,78.228,0,0,1,28.26,34.318A77.512,77.512,0,0,1,485,78V218.815c-1.082.69-1.661,3.438-1.821,8.648-.149,4.84.058,11.532.3,19.28v.014c.245,7.951.524,16.963.524,26.743,0,10.084-.258,18.885-.486,26.65-.442,15.074-.733,25.029,1.486,28.207V888a77.637,77.637,0,0,1-13.321,43.61,78.228,78.228,0,0,1-34.318,28.26A77.51,77.51,0,0,1,407,966H267.431c-1.439-1.047-5.546-1.191-9.769-1.191-2.062,0-4.384.041-6.843.084h-.02c-2.825.05-6.026.106-9.3.106-3.306,0-6.468-.057-9.259-.108h-.011c-2.352-.043-4.571-.083-6.517-.083-3.988,0-7.862.144-9.19,1.191Z" transform="translate(0 0)" fill="#597969"/>
+          <path id="Body_2-3" data-name="Body 2" d="M-.5,350a2.078,2.078,0,0,1-1.524-.656c-1.1-1.121-1.742-3.693-2.008-8.1-.243-4.021-.165-9.149-.074-15.086C-4.053,322.748-4,319.22-4,315.5s-.054-7.248-.106-10.66c-.091-5.941-.169-11.068.074-15.089.266-4.4.9-6.975,2.008-8.1A2.078,2.078,0,0,1-.5,281a.743.743,0,0,1,.539.242c1.312,1.328,1.224,8.159,1.079,19.475C1.063,305.047,1,309.95,1,315.5s.063,10.453.118,14.779C1.264,341.6,1.351,348.43.04,349.759A.743.743,0,0,1-.5,350Z" transform="translate(0 0)" fill="url(#pattern)"/>
+        </g>
+        <g id="Body-2" data-name="Body" clip-path="url(#clip-path)">
+          <path id="Inner_Shadow" data-name="Inner Shadow" d="M80,0H398c43.078,0,80,32.922,80,76V883c0,43.078-36.922,78-80,78H80c-43.078,0-80-34.922-80-78V75C0,31.922,36.922,0,80,0Z" transform="translate(4 -1)" fill="#bbe1cd"/>
+        </g>
+      </g>
+      <g id="Edge-2" data-name="Edge" transform="translate(13 10)">
+        <g transform="matrix(1, 0, 0, 1, -14, -10)" filter="url(#Edge)">
+          <g id="Edge-3" data-name="Edge" transform="translate(14 10)" stroke-miterlimit="10" fill="url(#linear-gradient)">
+            <path d="M 399 946.25 L 66 946.25 C 57.05635452270508 946.25 48.38023376464844 944.4983520507813 40.21247100830078 941.0436401367188 C 36.28682327270508 939.38330078125 32.50046920776367 937.328125 28.95882415771484 934.9354248046875 C 25.4508228302002 932.5654296875 22.15200042724609 929.84375 19.15411758422852 926.8458862304688 C 16.15623474121094 923.8480224609375 13.43458843231201 920.5491943359375 11.06458854675293 917.0411987304688 C 8.671882629394531 913.49951171875 6.616705894470215 909.7131958007813 4.956352710723877 905.7875366210938 C 1.501647114753723 897.6197509765625 -0.25 888.9436645507813 -0.25 880 L -0.25 66 C -0.25 57.05635452270508 1.501647114753723 48.38023376464844 4.956352710723877 40.21247100830078 C 6.616705894470215 36.28682327270508 8.671882629394531 32.50046920776367 11.06458854675293 28.95882415771484 C 13.43458843231201 25.4508228302002 16.15623474121094 22.15200042724609 19.15411758422852 19.15411758422852 C 22.15200042724609 16.15623474121094 25.4508228302002 13.43458843231201 28.95882415771484 11.06458854675293 C 32.50046920776367 8.671882629394531 36.28682327270508 6.616705894470215 40.21247100830078 4.956352710723877 C 48.38023376464844 1.501647114753723 57.05635452270508 -0.25 66 -0.25 L 399 -0.25 C 407.9436340332031 -0.25 416.6197509765625 1.501647114753723 424.7875366210938 4.956352710723877 C 428.7131652832031 6.616705894470215 432.4995422363281 8.671882629394531 436.0411682128906 11.06458854675293 C 439.5491638183594 13.43458843231201 442.8479919433594 16.15623474121094 445.8458862304688 19.15411758422852 C 448.84375 22.15200042724609 451.5653991699219 25.4508228302002 453.9354248046875 28.95882415771484 C 456.328125 32.50046920776367 458.38330078125 36.28682327270508 460.0436401367188 40.21247100830078 C 463.4983520507813 48.38023376464844 465.25 57.05635452270508 465.25 66 L 465.25 880 C 465.25 888.9436645507813 463.4983520507813 897.6197509765625 460.0436401367188 905.7875366210938 C 458.38330078125 909.7131958007813 456.328125 913.49951171875 453.9354248046875 917.0411987304688 C 451.5653991699219 920.5491943359375 448.84375 923.8480224609375 445.8458862304688 926.8458862304688 C 442.8479919433594 929.84375 439.5491638183594 932.5654296875 436.0411682128906 934.9354248046875 C 432.4995422363281 937.328125 428.7131652832031 939.38330078125 424.7875366210938 941.0436401367188 C 416.6197509765625 944.4983520507813 407.9436340332031 946.25 399 946.25 Z" stroke="none"/>
+            <path d="M 66 0 C 29.54916381835938 0 0 29.5491943359375 0 66 L 0 880 C 0 916.4508056640625 29.54916381835938 946 66 946 L 399 946 C 435.4508361816406 946 465 916.4508056640625 465 880 L 465 66 C 465 29.5491943359375 435.4508361816406 0 399 0 L 66 0 M 66 -0.5 L 399 -0.5 C 407.9771728515625 -0.5 416.6862182617188 1.25836181640625 424.8849487304688 4.72613525390625 C 428.8255310058594 6.392822265625 432.6260070800781 8.45562744140625 436.1811828613281 10.857421875 C 439.7023620605469 13.236328125 443.0135192871094 15.96826171875 446.0225830078125 18.9774169921875 C 449.0317687988281 21.9864501953125 451.7636413574219 25.29766845703125 454.142578125 28.81884765625 C 456.5443420410156 32.3740234375 458.607177734375 36.17449951171875 460.2738952636719 40.11505126953125 C 463.7416381835938 48.31378173828125 465.5 57.0228271484375 465.5 66 L 465.5 880 C 465.5 888.9771728515625 463.7416381835938 897.6862182617188 460.2738952636719 905.8849487304688 C 458.607177734375 909.8255615234375 456.5443420410156 913.6259765625 454.142578125 917.18115234375 C 451.7636413574219 920.7023315429688 449.0317687988281 924.0135498046875 446.0225830078125 927.0225830078125 C 443.0135192871094 930.03173828125 439.7023620605469 932.763671875 436.1811828613281 935.142578125 C 432.6260070800781 937.5443725585938 428.8255310058594 939.607177734375 424.8849487304688 941.2738647460938 C 416.6862182617188 944.7416381835938 407.9771728515625 946.5 399 946.5 L 66 946.5 C 57.0228271484375 946.5 48.31375122070313 944.7416381835938 40.11505126953125 941.2738647460938 C 36.17446899414063 939.607177734375 32.37399291992188 937.5443725585938 28.81881713867188 935.142578125 C 25.29763793945313 932.763671875 21.98648071289063 930.03173828125 18.9774169921875 927.0225830078125 C 15.96823120117188 924.0135498046875 13.23635864257813 920.7023315429688 10.857421875 917.18115234375 C 8.455657958984375 913.6259765625 6.392822265625 909.8255615234375 4.726104736328125 905.8849487304688 C 1.25836181640625 897.6862182617188 -0.5 888.9771728515625 -0.5 880 L -0.5 66 C -0.5 57.0228271484375 1.25836181640625 48.31378173828125 4.726104736328125 40.11505126953125 C 6.392822265625 36.17449951171875 8.455657958984375 32.3740234375 10.857421875 28.81884765625 C 13.23635864257813 25.29766845703125 15.96823120117188 21.9864501953125 18.9774169921875 18.9774169921875 C 21.98648071289063 15.96826171875 25.29763793945313 13.236328125 28.81881713867188 10.857421875 C 32.37399291992188 8.45562744140625 36.17446899414063 6.392822265625 40.11505126953125 4.72613525390625 C 48.31375122070313 1.25836181640625 57.0228271484375 -0.5 66 -0.5 Z" stroke="none" fill="#000"/>
+          </g>
+        </g>
+      </g>
+      <g id="Glass" transform="translate(17 14)">
+        <path id="Glass-2" data-name="Glass" d="M62,0A62,62,0,0,0,0,62V876a62,62,0,0,0,62,62H395a62,62,0,0,0,62-62V62A62,62,0,0,0,395,0Z" transform="translate(0)"/>
+      </g>
+      <g id="Reflection" transform="translate(17 14)">
+        <path id="Bottom_Reflection" data-name="Bottom Reflection" d="M457,0V7a62,62,0,0,1-62,62H62A62,62,0,0,1,0,7V0C0,34.242,17.758,62,62,62H395C439.242,62,457,34.242,457,0Z" transform="translate(0 869)" fill="url(#linear-gradient-2)"/>
+        <path id="Top_Reflection_" data-name="Top Reflection " d="M457,69c0-34.242-17.758-62-62-62H62C17.758,7,0,34.758,0,69V62A62,62,0,0,1,62,0H395a62,62,0,0,1,62,62Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+        <path id="Right_Reflection" data-name="Right Reflection" d="M27.511,51.529v814A61.9,61.9,0,0,1,2.824,915.049C14.532,903.42,20.511,885.4,20.511,865.529v-815C20.511,31.106,12.866,12.482,0,0A61.94,61.94,0,0,1,27.511,51.529Z" transform="translate(429.489 10.471)" fill="#7a7a7a"/>
+        <path id="Left_Reflection" data-name="Left Reflection" d="M0,863.869v-814A61.911,61.911,0,0,1,25.154,0C13.138,12.466,7,31.738,7,51.869v812c0,19.868,5.979,37.89,17.687,49.519A61.9,61.9,0,0,1,0,863.869Z" transform="translate(0 12.131)" fill="#7a7a7a"/>
+      </g>
+      <g id="Antenna_Bands_" data-name="Antenna Bands " transform="translate(2.313 94.656)">
+        <path id="Bottom_Left" data-name="Bottom Left" d="M0,0H9.518L9.494,9.026,0,9Z" transform="translate(0.688 767.344)" fill="url(#linear-gradient-4)"/>
+        <path id="Bottom_Right" data-name="Bottom Right" d="M0,.028,9.5,0V9H0Z" transform="translate(476.188 767.344)" fill="url(#linear-gradient-5)"/>
+        <rect id="Top_Left" data-name="Top Left" width="9.505" height="9" transform="translate(0.688 0.344)" fill="url(#linear-gradient-4)"/>
+        <rect id="Top_Right" data-name="Top Right" width="9.501" height="9" transform="translate(476.187)" fill="url(#linear-gradient-5)"/>
+      </g>
+      <g id="Glass_Inner_Shadow-2" data-name="Glass Inner Shadow" transform="translate(17 14)">
+        <g transform="matrix(1, 0, 0, 1, -18, -14)" filter="url(#Glass_Inner_Shadow)">
+          <g id="Glass_Inner_Shadow-3" data-name="Glass Inner Shadow" transform="translate(18 14)" fill="none" stroke-miterlimit="10">
+            <path d="M62,0A62,62,0,0,0,0,62V876a62,62,0,0,0,62,62H395a62,62,0,0,0,62-62V62A62,62,0,0,0,395,0Z" stroke="none"/>
+            <path d="M 62 0 C 27.75836181640625 0 0 27.75836181640625 0 62 L 0 876 C 0 910.2416381835938 27.75836181640625 938 62 938 L 395 938 C 429.2416381835938 938 457 910.2416381835938 457 876 L 457 62 C 457 27.75836181640625 429.2416381835938 0 395 0 L 62 0 M 62 -0.5 L 395 -0.5 C 403.4371643066406 -0.5 411.6223449707031 1.152587890625 419.3280029296875 4.4117431640625 C 423.0314025878906 5.97821044921875 426.6034240722656 7.91705322265625 429.9447021484375 10.17437744140625 C 433.2541198730469 12.41009521484375 436.3659973144531 14.9776611328125 439.1941223144531 17.805908203125 C 442.0223388671875 20.63397216796875 444.5898742675781 23.74591064453125 446.8256530761719 27.0552978515625 C 449.0829467773438 30.3966064453125 451.0217590332031 33.96856689453125 452.5882263183594 37.6719970703125 C 455.847412109375 45.37762451171875 457.5 53.56280517578125 457.5 62 L 457.5 876 C 457.5 884.4371948242188 455.847412109375 892.6223754882813 452.5882263183594 900.3280029296875 C 451.0217590332031 904.0314331054688 449.0829467773438 907.6033935546875 446.8256530761719 910.9447021484375 C 444.5898742675781 914.2540893554688 442.0223388671875 917.3660278320313 439.1941223144531 920.194091796875 C 436.3659973144531 923.0223388671875 433.2541198730469 925.5899047851563 429.9447021484375 927.8256225585938 C 426.6034240722656 930.0829467773438 423.0314025878906 932.0217895507813 419.3280029296875 933.5882568359375 C 411.6223449707031 936.847412109375 403.4371643066406 938.5 395 938.5 L 62 938.5 C 53.56283569335938 938.5 45.37765502929688 936.847412109375 37.6719970703125 933.5882568359375 C 33.96859741210938 932.0217895507813 30.39657592773438 930.0829467773438 27.0552978515625 927.8256225585938 C 23.74588012695313 925.5899047851563 20.63400268554688 923.0223388671875 17.80587768554688 920.194091796875 C 14.9776611328125 917.3660278320313 12.41012573242188 914.2540893554688 10.17434692382813 910.9447021484375 C 7.91705322265625 907.6033935546875 5.978240966796875 904.0314331054688 4.411773681640625 900.3280029296875 C 1.152587890625 892.6223754882813 -0.5 884.4371948242188 -0.5 876 L -0.5 62 C -0.5 53.56280517578125 1.152587890625 45.37762451171875 4.411773681640625 37.6719970703125 C 5.978240966796875 33.96856689453125 7.91705322265625 30.3966064453125 10.17434692382813 27.0552978515625 C 12.41012573242188 23.74591064453125 14.9776611328125 20.63397216796875 17.80587768554688 17.805908203125 C 20.63400268554688 14.9776611328125 23.74588012695313 12.41009521484375 27.0552978515625 10.17437744140625 C 30.39657592773438 7.91705322265625 33.96859741210938 5.97821044921875 37.6719970703125 4.4117431640625 C 45.37765502929688 1.152587890625 53.56283569335938 -0.5 62 -0.5 Z" stroke="none" fill="#000"/>
+          </g>
+        </g>
+      </g>
+      <g id="Side_Button" data-name="Side Button" transform="translate(485.583 218.753)">
+        <g id="Rectangle_9" data-name="Rectangle 9">
+          <path id="Rectangle_9-2" data-name="Rectangle 9" d="M.081,8.27A5.523,5.523,0,0,1,.176,7.252L1.535,0,3.32.716a1,1,0,0,1,.628.925l.308,105a1,1,0,0,1-.572.907l-2.093.991L.2,102.055A5.523,5.523,0,0,1,.081,100.9Z" transform="translate(0.471 0.457)" fill="url(#linear-gradient-8)"/>
+          <path id="Rectangle_9-3" data-name="Rectangle 9" d="M.081,8.27A5.523,5.523,0,0,1,.176,7.252L1.535,0,3.32.716a1,1,0,0,1,.628.925l.308,105a1,1,0,0,1-.572.907l-2.093.991L.2,102.055A5.523,5.523,0,0,1,.081,100.9Z" transform="translate(0.471 0.457)" fill="url(#pattern-2)"/>
+        </g>
+        <g id="Side_Button-2" data-name="Side Button" clip-path="url(#clip-path-2)">
+          <path id="Rectangle_10" data-name="Rectangle 10" d="M3.063,0S.343-.347,0,7.732C0,65.2,0,98.6,0,98.412c0,8.94.847,8.924,1.262,9.431l2.051-.905c-1.531-2.279-1.781-5.057-1.781-9.391V12.109c0-5.169,1.107-10.184,1.531-10.162Z" transform="translate(3.313 -0.106)" fill="#486658"/>
+          <rect id="Rectangle" width="23" height="113" transform="translate(-3)" fill="#91b3a2" opacity="0.498"/>
+        </g>
+      </g>
+      <g id="Volume_Down_" data-name="Volume Down " transform="translate(0 281)">
+        <g id="Rectangle_9-4" data-name="Rectangle 9">
+          <path id="Rectangle_9-5" data-name="Rectangle 9" d="M3.865,7.725c.271,6.583,0,49.452,0,53.869C3.67,66.362,2.62,67.731,2.62,67.731l-2-.829A1,1,0,0,1,0,65.978V2.109a1,1,0,0,1,.489-.86L2.592,0S3.594,1.141,3.865,7.725Z" transform="translate(0.708 0.595)" fill="url(#linear-gradient-9)"/>
+          <path id="Rectangle_9-6" data-name="Rectangle 9" d="M3.865,7.725c.271,6.583,0,49.452,0,53.869C3.67,66.362,2.62,67.731,2.62,67.731l-2-.829A1,1,0,0,1,0,65.978V2.109a1,1,0,0,1,.489-.86L2.592,0S3.594,1.141,3.865,7.725Z" transform="translate(0.708 0.595)" fill="url(#pattern-2)"/>
+        </g>
+        <g id="Volume_Down_2" data-name="Volume Down " clip-path="url(#clip-path-3)">
+          <path id="Rectangle_10-2" data-name="Rectangle 10" d="M.25,0s2.72-.35,3.063,7.73V58.554c0,9.127-2.648,9.615-3.063,10.123L0,67.08c1.531-2.279,1.781-5.057,1.781-9.391V12.109C1.781,6.94.674,1.925.25,1.947Z" transform="translate(-1.208 -0.106)" fill="url(#linear-gradient-10)"/>
+        </g>
+      </g>
+      <g id="Volume_Up_" data-name="Volume Up " transform="translate(0.5 197)">
+        <g id="Rectangle_9-7" data-name="Rectangle 9">
+          <path id="Rectangle_9-8" data-name="Rectangle 9" d="M3.865,7.757c.271,6.583,0,49.452,0,53.869-.194,4.768-.994,6.161-.994,6.161L.64,66.926A1,1,0,0,1,0,65.993V2.15a1,1,0,0,1,.5-.866L2.722,0S3.594,1.174,3.865,7.757Z" transform="translate(0 0.456)" fill="url(#linear-gradient-9)"/>
+          <path id="Rectangle_9-9" data-name="Rectangle 9" d="M3.865,7.757c.271,6.583,0,49.452,0,53.869-.194,4.768-.994,6.161-.994,6.161L.64,66.926A1,1,0,0,1,0,65.993V2.15a1,1,0,0,1,.5-.866L2.722,0S3.594,1.174,3.865,7.757Z" transform="translate(0 0.456)" fill="url(#pattern-2)"/>
+        </g>
+        <g id="Volume_Up_2" data-name="Volume Up " clip-path="url(#clip-path-4)">
+          <path id="Rectangle_10-3" data-name="Rectangle 10" d="M.25,0s2.72-.35,3.063,7.73V58.554c0,9.127-2.067,10.3-2.482,10.809L0,67.08c1.531-2.279,1.781-5.057,1.781-9.391V12.109C1.781,6.94.674,1.925.25,1.947Z" transform="translate(-2.208 -0.106)" fill="url(#linear-gradient-10)"/>
+        </g>
+      </g>
+      <g id="Ring_Silent" data-name="Ring/Silent" transform="translate(0 131)">
+        <g id="Rectangle_9-10" data-name="Rectangle 9">
+          <path id="Rectangle_9-11" data-name="Rectangle 9" d="M4.089,4.877c.067,1.908.079,22.3,0,24.4-.2,5.286-1.116,6.463-1.171,6.421l-1.732-.417a1,1,0,0,1-.628-.465L.138,34.1A1,1,0,0,1,0,33.592V1.482L.477.788A1,1,0,0,1,1.094.377L2.871,0S3.948.874,4.089,4.877Z" transform="translate(0.328 0.54)" fill="url(#linear-gradient-13)"/>
+          <path id="Rectangle_9-12" data-name="Rectangle 9" d="M4.089,4.877c.067,1.908.079,22.3,0,24.4-.2,5.286-1.116,6.463-1.171,6.421l-1.732-.417a1,1,0,0,1-.628-.465L.138,34.1A1,1,0,0,1,0,33.592V1.482L.477.788A1,1,0,0,1,1.094.377L2.871,0S3.948.874,4.089,4.877Z" transform="translate(0.328 0.54)" fill="url(#pattern-2)"/>
+        </g>
+        <g id="Ring_Silent-2" data-name="Ring/Silent" clip-path="url(#clip-path-5)">
+          <path id="Rectangle_10_Copy" data-name="Rectangle 10 Copy" d="M1.27,0a2.142,2.142,0,0,1,.539,1.136L2.374,5.2V28.709C2.374,36.515.3,36.921,0,37.434l.824-2.249c1.1-2.306.894-4.745.894-6.922V7.162C1.717,4.029,1.575-.022,1.27,0Z" transform="translate(-0.717 0.54)" fill="url(#linear-gradient-14)"/>
+        </g>
+      </g>
+      <g id="Camera_" data-name="Camera " transform="translate(284.458 33.816)">
+        <g transform="matrix(1, 0, 0, 1, -285.46, -33.82)" filter="url(#Border)">
+          <ellipse id="Border-2" data-name="Border" cx="6.626" cy="6.625" rx="6.626" ry="6.625" transform="translate(286.1 46.64) rotate(-74)" stroke="#707070" stroke-miterlimit="10" stroke-width="0.552" fill="url(#linear-gradient-15)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -285.46, -33.82)" filter="url(#Lens-2)">
+          <ellipse id="Lens-4" data-name="Lens" cx="4.417" cy="4.417" rx="4.417" ry="4.417" transform="translate(288.83 45.13) rotate(-74)" fill="#10141e"/>
+        </g>
+        <g id="Camera_2" data-name="Camera " clip-path="url(#clip-path-6)">
+          <path id="Oval_4" data-name="Oval 4" d="M5.11,3.313c3.2,0,5.561-.742,5.561-1.656S8.312,0,5.11,0,0,.742,0,1.656,1.908,3.313,5.11,3.313Z" transform="translate(3.347 13.712) rotate(-87)" fill="#365191"/>
+          <path id="Oval_4-2" data-name="Oval 4" d="M5.136,2.67c2.837,0,4.415-.6,4.415-1.335S7.973,0,5.136,0,0,.6,0,1.335,2.3,2.67,5.136,2.67Z" transform="translate(10.782 12.579) rotate(-87)" fill="#24396b"/>
+          <ellipse id="Oval_8" data-name="Oval 8" cx="0.828" cy="2.208" rx="0.828" ry="2.208" transform="matrix(0.017, -1, 1, 0.017, 6.843, 4.256)" fill="rgba(255,255,255,0.2)"/>
+          <ellipse id="Oval_7" data-name="Oval 7" cx="0.828" cy="2.208" rx="0.828" ry="2.208" transform="matrix(0.017, -1, 1, 0.017, 6.843, 4.256)" fill="rgba(255,255,255,0.5)"/>
+          <ellipse id="Oval_79" data-name="Oval 79" cx="1.104" cy="1.104" rx="1.104" ry="1.104" transform="translate(7.468 9.039) rotate(-74)" fill="#fff"/>
+          <ellipse id="Oval_5" data-name="Oval 5" cx="1.104" cy="1.104" rx="1.104" ry="1.104" transform="translate(10.129 8.154) rotate(-74)" fill="url(#linear-gradient-16)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -285.46, -33.82)" filter="url(#Combined_Shape-2)">
+          <path id="Combined_Shape-4" data-name="Combined Shape" d="M4.42,8.836a4.418,4.418,0,1,1,4.244-3.2A4.421,4.421,0,0,1,4.42,8.836ZM4.416,1A3.418,3.418,0,1,0,7.7,5.36,3.42,3.42,0,0,0,4.416,1Z" transform="translate(289.87 37.68)" fill="none"/>
+        </g>
+      </g>
+      <g id="Speaker_2" data-name="Speaker   " transform="translate(216.792 38.233)">
+        <g id="Speaker_3" data-name="Speaker   ">
+          <g transform="matrix(1, 0, 0, 1, -217.79, -38.23)" filter="url(#Speaker_)">
+            <rect id="Speaker_4" data-name="Speaker   " width="57.417" height="7.73" rx="3.865" transform="translate(217.79 38.23)" fill="none"/>
+          </g>
+          <rect id="Speaker_5" data-name="Speaker   " width="57.417" height="7.73" rx="3.865" transform="translate(0 0)" fill="none"/>
+          <rect id="Speaker_6" data-name="Speaker   " width="57.417" height="7.73" rx="3.865" transform="translate(0 0)" fill="none"/>
+          <g id="Speaker_7" data-name="Speaker   " transform="translate(0 0)" stroke="#707070" stroke-miterlimit="10" stroke-width="0.552" fill="url(#linear-gradient-17)">
+            <rect width="57.417" height="7.73" rx="3.865" stroke="none"/>
+            <rect x="0.276" y="0.276" width="56.864" height="7.178" rx="3.589" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Screen" transform="translate(38 35)">
+        <path id="Screen_Shape-2" data-name="Screen Shape" d="M86.112,0a5.519,5.519,0,0,1,5.52,5.517v3.31c0,10.407,9.874,24.276,26.288,24.276H296.08c16.414,0,26.288-13.869,26.288-24.276V5.517A5.519,5.519,0,0,1,327.888,0h43.056C394.723,0,414,17.267,414,43.034V852.966C414,878.733,394.723,896,370.944,896H43.056C19.277,896,0,878.733,0,852.966V43.034C0,17.267,19.277,0,43.056,0Z" fill="#171717" opacity="0.671"/>
+        <g id="Screen-2" data-name="Screen" clip-path="url(#clip-path-8)">
+          <path id="Screen-3" data-name="Screen" d="M0,0H414V896H0Z" fill="#04043d"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(68 251)" fill="#353561" stroke="#000" stroke-width="1">
+      <rect width="354" height="508" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="353" height="507" rx="5.5" fill="none"/>
+    </g>
+    <g id="Menu" transform="translate(53 63)">
+      <path id="Menu-2" data-name="Menu" d="M0,35V30H23.127v5ZM0,20V15H37v5ZM0,5V0H37V5Z" transform="translate(0 1)" fill="#fff"/>
+      <rect id="Rectangle_1446" data-name="Rectangle 1446" width="37" height="37" fill="none"/>
+    </g>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(31 42)" clip-path="url(#clip-path-9)">
+      <rect id="pexels-ketut-subiyanto-4350057" width="244" height="323" transform="translate(88 34)" fill="url(#pattern-6)"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(284 277)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="34" cy="34" r="34" stroke="none"/>
+      <circle cx="34" cy="34" r="33.5" fill="none"/>
+    </g>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(352 345) rotate(-180)" fill="#fff" stroke="#ff0" stroke-width="6" stroke-dasharray="53 200">
+      <circle cx="34" cy="34" r="34" stroke="none"/>
+      <circle cx="34" cy="34" r="31" fill="none"/>
+    </g>
+    <text id="_" data-name="🦧" transform="translate(335 321)" fill="#fff" font-size="27" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="-34.238" y="0">🦧</tspan></text>
+    <g id="Rectangle_1477" data-name="Rectangle 1477" transform="translate(49 337)" fill="#cacfe5" stroke="#000" stroke-width="1">
+      <rect width="393" height="304" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="392" height="303" rx="5.5" fill="none"/>
+    </g>
+    <g id="Ellipse_14-2" data-name="Ellipse 14" transform="translate(417 530) rotate(-180)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+      <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+    </g>
+    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(393.822 542.447) rotate(-159)" fill="#fff" stroke="#ff0" stroke-width="6" stroke-dasharray="60 219">
+      <circle cx="47.5" cy="47.5" r="47.5" stroke="none"/>
+      <circle cx="47.5" cy="47.5" r="44.5" fill="none"/>
+    </g>
+    <text id="Advanced" transform="translate(335 553)" fill="#707070" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Advanced</tspan></text>
+    <text id="_25_" data-name="25%" transform="translate(354 572)" fill="#707070" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">25%</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(34 100)">
+      <g id="Ellipse_14-3" data-name="Ellipse 14" transform="translate(137 430) rotate(-180)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+        <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+      </g>
+      <text id="Beginner" transform="translate(57 453)" fill="#707070" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Beginner</tspan></text>
+      <text id="_0_" data-name="0%" transform="translate(78 472)" fill="#707070" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">0%</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(157 100)">
+      <g id="Ellipse_14-4" data-name="Ellipse 14" transform="translate(137 430) rotate(-180)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+        <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+      </g>
+      <text id="Intermediate" transform="translate(48 453)" fill="#707070" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Intermediate</tspan></text>
+      <text id="_0_2" data-name="0%" transform="translate(79 472)" fill="#707070" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">0%</tspan></text>
+    </g>
+    <text id="Change_your_level" data-name="Change your level" transform="translate(168 395)" fill="#707070" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Change your level</tspan></text>
+    <g id="Radio_Button" data-name="Radio Button" transform="translate(237 583)">
+      <g id="Switch_On" data-name="Switch On">
+        <g id="Rectangle_1002" data-name="Rectangle 1002" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="16" height="16" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Switch_On-2" data-name="Switch On" transform="translate(2 2)" opacity="0">
+        <g id="Rectangle_1002-2" data-name="Rectangle 1002" fill="#707070" stroke="#707070" stroke-width="1">
+          <rect width="12" height="12" rx="6" stroke="none"/>
+          <rect x="0.5" y="0.5" width="11" height="11" rx="5.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Radio_Button-2" data-name="Radio Button" transform="translate(114 583)">
+      <g id="Switch_On-3" data-name="Switch On">
+        <g id="Rectangle_1002-3" data-name="Rectangle 1002" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="16" height="16" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Switch_On-4" data-name="Switch On" transform="translate(2 2)" opacity="0">
+        <g id="Rectangle_1002-4" data-name="Rectangle 1002" fill="#707070" stroke="#707070" stroke-width="1">
+          <rect width="12" height="12" rx="6" stroke="none"/>
+          <rect x="0.5" y="0.5" width="11" height="11" rx="5.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_2" data-name="🦧" transform="translate(392 495)" fill="#fff" font-size="40" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="-50.723" y="0">🦧</tspan></text>
+    <text id="_3" data-name="🦍" transform="translate(272 495)" fill="#fff" font-size="40" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="-54.922" y="0">🦍</tspan></text>
+    <text id="_4" data-name="🐒" transform="translate(149 495)" fill="#fff" font-size="40" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="-54.922" y="0">🐒</tspan></text>
+    <text id="_5" data-name="🦧" transform="translate(335 322)" fill="#fff" font-size="27" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="-34.238" y="0">🦧</tspan></text>
+    <g id="Close" transform="translate(414 350)" clip-path="url(#clip-path-10)">
+      <rect id="Rectangle_1445" data-name="Rectangle 1445" width="16" height="16" fill="none"/>
+      <path id="Union_3" data-name="Union 3" d="M7.778,9.192,1.414,15.557,0,14.142,6.364,7.778,0,1.414,1.414,0,7.778,6.364,14.142,0l1.415,1.414L9.192,7.778l6.364,6.364-1.415,1.415Z" fill="#5a5a5a"/>
+    </g>
+    <g id="Switch_On-5" data-name="Switch On" transform="translate(360 583)">
+      <g id="Rectangle_1002-5" data-name="Rectangle 1002" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="16" height="16" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Switch_On-6" data-name="Switch On" transform="translate(362 585)">
+      <g id="Rectangle_1002-6" data-name="Rectangle 1002" fill="#707070" stroke="#707070" stroke-width="1">
+        <rect width="12" height="12" rx="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="11" height="11" rx="5.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="926" viewBox="0 0 428 926">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14" height="14" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Test_Theme_1_Beginner">
+      <rect width="428" height="926"/>
+    </clipPath>
+  </defs>
+  <g id="Test_Theme_1_Beginner" data-name="Test Theme 1 Beginner" clip-path="url(#clip-Test_Theme_1_Beginner)">
+    <rect width="428" height="926" fill="#fff"/>
+    <g id="Rectangle_9" data-name="Rectangle 9" stroke="#000" stroke-width="1">
+      <rect width="450" height="113" stroke="none"/>
+      <rect x="0.5" y="0.5" width="449" height="112" fill="none"/>
+    </g>
+    <g id="Menu" transform="translate(20 21)">
+      <path id="Menu-2" data-name="Menu" d="M0,35V30H23.127v5ZM0,20V15H37v5ZM0,5V0H37V5Z" transform="translate(0 1)" fill="#fff"/>
+      <rect id="Rectangle_1446" data-name="Rectangle 1446" width="37" height="37" fill="none"/>
+    </g>
+    <text id="Theme_1_test" data-name="Theme 1
+test" transform="translate(214 276)" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-71" y="0">Theme 1</tspan><tspan font-size="30" font-family="Arial-BoldItalicMT, Arial" font-style="italic"><tspan x="-26.675" y="39">test</tspan></tspan></text>
+    <g id="Forward_arrow_small" data-name="Forward arrow small" transform="translate(391 523)" clip-path="url(#clip-path)">
+      <path id="Path_36" data-name="Path 36" d="M6.569,8.525,0,1.957,1.957,0,6.569,4.612,11.181,0l1.957,1.957Z" transform="translate(2.795 13.139) rotate(-90)"/>
+      <rect id="Rectangle_1465" data-name="Rectangle 1465" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Forward_arrow_small-2" data-name="Forward arrow small" transform="translate(37 537) rotate(180)" clip-path="url(#clip-path)">
+      <path id="Path_36-2" data-name="Path 36" d="M6.569,8.525,0,1.957,1.957,0,6.569,4.612,11.181,0l1.957,1.957Z" transform="translate(2.795 13.139) rotate(-90)"/>
+      <rect id="Rectangle_1465-2" data-name="Rectangle 1465" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Rectangle_1468" data-name="Rectangle 1468" transform="translate(56 361)" stroke="#707070" stroke-width="1">
+      <rect width="317" height="381" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="316" height="380" rx="5.5" fill="none"/>
+    </g>
+    <text id="Lorem_ipsum_dolor_sit_amet______" data-name="Lorem ipsum dolor sit amet _____" transform="translate(214 442)" fill="#fff" font-size="18" font-family="Arial-BoldItalicMT, Arial" font-weight="700" font-style="italic"><tspan x="-145.547" y="0">Lorem ipsum dolor sit amet _____</tspan></text>
+    <text id="Alternative_1" data-name="Alternative 1" transform="translate(198 511)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-54.022" y="0">Alternative 1</tspan></text>
+    <text id="Alternative_2" data-name="Alternative 2" transform="translate(198 556)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-54.022" y="0">Alternative 2</tspan></text>
+    <text id="Alternative_3" data-name="Alternative 3" transform="translate(198 601)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-54.022" y="0">Alternative 3</tspan></text>
+    <text id="_3_15" data-name="3/15" transform="translate(214 687)" fill="#fff" font-size="36" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-35.033" y="0">3/15</tspan></text>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(124 497)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(124 543)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(124 588)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="34" cy="34" r="34" transform="translate(391 92) rotate(-180)" fill="#fff"/>
+    <text id="C" transform="translate(346 70)" fill="#707070" font-size="30" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="Alias" transform="translate(274 54)" fill="#fff" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-29.877" y="0">Alias</tspan></text>
+    <text id="_0_xp" data-name="0 xp" transform="translate(290 79)" fill="#fff" font-size="15" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-15.007" y="0">0 xp</tspan></text>
+  </g>
+</svg>

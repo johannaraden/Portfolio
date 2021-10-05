@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import './Animation.css'
-
 
 const Title = styled.h1`
-  // background-color: #387c6d;
+  background-color: #387c6d;
   padding: .2em;
+  color: white;
   max-width: 10em;
-  color: #387c6d;
   text-align: center;
   font-size: 2.5em;
   text-transform: lowercase;
@@ -16,7 +14,7 @@ const Title = styled.h1`
 `
 
  
-export const Headline = ({ title }) => {
+export const ProjectHeadline = ({ title }) => {
   return (
     <Title>{title}</Title>
   )

@@ -43,3 +43,38 @@
   z-index: 0;
   transition: transform 0.3s ease-out;
 }
+
+
+.wireframe {
+  border: 1px solid black;
+}
+
+
+/* /////// */
+
+/* .language {
+  transform: translateX(-100%);
+  color: black;
+  border: 2px solid black;
+}
+
+.karamba {
+  transform: translateX(-100%);
+  color: black;
+  border: 2px solid black;
+} */
+
+
+.tabs,
+  .tab {
+    display: flex;
+    justify-content: center;
+    }
+
+.tab > * {
+  font-size: 1em;
+}
+
+a.actived{
+  text-decoration: underline;
+}

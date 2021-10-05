@@ -3,7 +3,6 @@ import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
 import { isDesktop, isMobile } from 'react-device-detect'
-// import Card from '../Card.js'
 import { DeviceSize } from './Sizes.js'
 import Button from './Button.js'
 
@@ -68,9 +67,11 @@ const Card = styled.div`
 
 const OverlayText = styled.h3`
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   justify-content: center;
+  font-family: 'Cabin', sans-serif;
+  text-transform: lowercase;
   @media ${DeviceSize.tablet} {
     font-size: 4em;
   }
@@ -142,7 +143,7 @@ export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy
           <a href={deploy}><Button>To Project</Button></a>
         </CardText>
         <ChipsContainer>
-          {technologies && technologies.map((tech) => <Chip key={tech} style={{ backgroundColor: '#e9896a', color: 'white'}} label={tech}/>)}
+          {technologies && technologies.map((tech) => <Chip key={tech} style={{ fontFamily: 'Lato', backgroundColor: '#e9896a', color: 'white'}} label={tech}/>)}
         </ChipsContainer>
       </Content>
     </Card>
