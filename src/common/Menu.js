@@ -35,7 +35,7 @@ class Tabs extends React.Component {
     return React.Children.map(this.props.children, (item, i) => {
       if (i%2 === 0) {
         let actived = this.state.actived === i ? 'actived' : ''
-        return <a onClick={this.select(i)} className={`${actived} tab`}>{item}</a>
+        return <button onClick={this.select(i)} className={`${actived} tab`}>{item}</button>
       }
     })
   }
