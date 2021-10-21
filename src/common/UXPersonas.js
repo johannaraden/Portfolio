@@ -2,19 +2,19 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import { DeviceSize } from '../common/Sizes'
-import ModalImage from "react-modal-image"
-
+import ModalImage from 'react-modal-image'
 
 const Container = styled.div`
   display: flex;
   justify-content: center;
   margin: auto;
-  > * {
-    width: 15em;
-    margin: 2em;
+    > * {
+    @media ${DeviceSize.tablet} {
+      width: 18em;
+      margin: 1em;
+    }
   }
 `
-
 export const Persona = ({ Persona1, Persona2, title }) => {
   
   return (

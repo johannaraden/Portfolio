@@ -2,10 +2,9 @@ import React from 'react'
 import '../styling.css'
 import styled from 'styled-components/macro'
 import Chip from '@material-ui/core/Chip'
-import { isDesktop, isMobile } from 'react-device-detect'
+import { isDesktop } from 'react-device-detect'
 import { DeviceSize } from './Sizes.js'
 import Button from './Button.js'
-
 
 const Overlay = styled.div`
   position: absolute;
@@ -28,7 +27,6 @@ const Overlay = styled.div`
     display: none;
 }
 `
-
 const Card = styled.div`
   border-radius: 6px;
   background-color: var(--mdc-theme-surface, #fff);
@@ -64,7 +62,6 @@ const Card = styled.div`
     margin: 2em auto;
   }
 `
-
 const OverlayText = styled.h3`
   color: white;
   font-size: 1.5em;
@@ -76,33 +73,26 @@ const OverlayText = styled.h3`
     font-size: 4em;
   }
 `
-
 const Header = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
 `
-
 const CoverImage = styled.img`
   width: 100%;
   border-radius: 6px 6px 0 0;
 `
-
 const CardText = styled.div`
   margin: 1em 1em 0 1em;
 `
-
 const Title = styled.h1`
   font-size: 1.2em;
 `
-
 const SubTitle = styled(Title)`
   font-style: italic;
 `
-
 const Description = styled.p`
 `
-
 const Content = styled.div`
   display:flex;
   padding: .5em;
@@ -113,8 +103,6 @@ const Content = styled.div`
     flex: 1 0 auto;
   }
 `
-
-
 const ChipsContainer = styled.div`
   flex: 1 0 auto;
   margin: 1em;
@@ -123,8 +111,6 @@ const ChipsContainer = styled.div`
     margin: .2em;
   }
 `
-
-
 export const ProjectCard = ({ title, subtitle, secondaryText, coverImage, deploy, href, technologies }) => {
 
   return (

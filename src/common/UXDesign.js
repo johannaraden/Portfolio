@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styling.css'
-import styled, { keyframes } from 'styled-components/macro'
+import styled from 'styled-components/macro'
 import ModalImage from "react-modal-image"
 import { DeviceSize } from '../common/Sizes'
 

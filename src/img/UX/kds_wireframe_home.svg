@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="18" height="18" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="17" height="18" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="73" height="73" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect width="233" height="233" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-kds_wireframe_home">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="kds_wireframe_home" clip-path="url(#clip-kds_wireframe_home)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Menu" transform="translate(702 77.099)">
+      <g id="social" transform="translate(36.631 706.586)">
+        <g id="Facebook_1" data-name="Facebook – 1" transform="translate(0.369 0.315)" clip-path="url(#clip-path)">
+          <rect id="Rectangle_547" data-name="Rectangle 547" width="18" height="18" transform="translate(0 0)" fill="none"/>
+          <path id="Path_1" data-name="Path 1" d="M86.187,18.258V9.94h2.84l.406-3.246H86.187V4.666c0-.913.3-1.623,1.623-1.623h1.724V.1C89.129.1,88.114,0,87,0A3.915,3.915,0,0,0,82.84,4.26V6.694H80V9.94h2.84v8.317Z" transform="translate(-75.436)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="Instagram_1" data-name="Instagram – 1" transform="translate(55.369 0.315)" clip-path="url(#clip-path)">
+          <path id="Path_3" data-name="Path 3" d="M9.129,1.623a27.991,27.991,0,0,1,3.652.1,4.7,4.7,0,0,1,1.724.3,3.562,3.562,0,0,1,1.724,1.724,4.7,4.7,0,0,1,.3,1.724c0,.913.1,1.217.1,3.652a27.99,27.99,0,0,1-.1,3.652,4.7,4.7,0,0,1-.3,1.724A3.562,3.562,0,0,1,14.5,16.229a4.7,4.7,0,0,1-1.724.3c-.913,0-1.217.1-3.652.1a27.99,27.99,0,0,1-3.652-.1,4.7,4.7,0,0,1-1.724-.3A3.562,3.562,0,0,1,2.029,14.5a4.7,4.7,0,0,1-.3-1.724c0-.913-.1-1.217-.1-3.652a27.991,27.991,0,0,1,.1-3.652,4.7,4.7,0,0,1,.3-1.724,3.643,3.643,0,0,1,.71-1.014,1.715,1.715,0,0,1,1.014-.71,4.7,4.7,0,0,1,1.724-.3,27.991,27.991,0,0,1,3.652-.1M9.129,0A29.97,29.97,0,0,0,5.376.1,6.262,6.262,0,0,0,3.144.507,3.971,3.971,0,0,0,1.521,1.521,3.971,3.971,0,0,0,.507,3.144,4.622,4.622,0,0,0,.1,5.376,29.97,29.97,0,0,0,0,9.129a29.97,29.97,0,0,0,.1,3.753,6.262,6.262,0,0,0,.406,2.231,3.971,3.971,0,0,0,1.014,1.623A3.971,3.971,0,0,0,3.144,17.75a6.262,6.262,0,0,0,2.231.406,29.97,29.97,0,0,0,3.753.1,29.97,29.97,0,0,0,3.753-.1,6.262,6.262,0,0,0,2.231-.406,4.256,4.256,0,0,0,2.637-2.637,6.262,6.262,0,0,0,.406-2.231c0-1.014.1-1.319.1-3.753a29.97,29.97,0,0,0-.1-3.753,6.262,6.262,0,0,0-.406-2.231,3.971,3.971,0,0,0-1.014-1.623A3.971,3.971,0,0,0,15.113.507,6.262,6.262,0,0,0,12.882.1,29.97,29.97,0,0,0,9.129,0m0,4.463A4.591,4.591,0,0,0,4.463,9.129,4.666,4.666,0,1,0,9.129,4.463m0,7.709A2.989,2.989,0,0,1,6.086,9.129,2.989,2.989,0,0,1,9.129,6.086a2.989,2.989,0,0,1,3.043,3.043,2.989,2.989,0,0,1-3.043,3.043M14,3.144A1.116,1.116,0,1,0,15.113,4.26,1.126,1.126,0,0,0,14,3.144" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="Twitter_1" data-name="Twitter – 1" transform="translate(110.369 0.315)" clip-path="url(#clip-path-3)">
+          <rect id="Rectangle_548" data-name="Rectangle 548" width="18" height="18" transform="translate(0 0)" fill="none"/>
+          <path id="Path_2" data-name="Path 2" d="M43.782,16.809a10.556,10.556,0,0,0,10.65-10.65V5.652a8.245,8.245,0,0,0,1.826-1.927,8.42,8.42,0,0,1-2.13.609A3.946,3.946,0,0,0,55.75,2.3a9.3,9.3,0,0,1-2.333.913A3.622,3.622,0,0,0,50.679,2a3.811,3.811,0,0,0-3.753,3.753,1.977,1.977,0,0,0,.1.811,10.487,10.487,0,0,1-7.709-3.956,3.884,3.884,0,0,0-.507,1.927A4.03,4.03,0,0,0,40.434,7.68a3.419,3.419,0,0,1-1.724-.507h0a3.707,3.707,0,0,0,3.043,3.652,3.127,3.127,0,0,1-1.014.1,1.726,1.726,0,0,1-.71-.1,3.843,3.843,0,0,0,3.55,2.637,7.658,7.658,0,0,1-4.666,1.623,2.808,2.808,0,0,1-.913-.1,9.574,9.574,0,0,0,5.782,1.826" transform="translate(-38 -0.859)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+    <g id="Image" transform="translate(720 100)" clip-path="url(#clip-path-4)">
+      <rect id="Rectangle_549" data-name="Rectangle 549" width="73" height="73" fill="none"/>
+      <path id="Path_148" data-name="Path 148" d="M68.133,0a4.208,4.208,0,0,1,3.042,1.533C72.392,3.067,73,3.833,73,6.133v57.5a6.728,6.728,0,0,1-1.217,3.833C70.567,68.233,69.958,69,68.133,69H4.867c-1.825,0-2.433-.767-3.65-1.533C.608,65.933,0,65.167,0,62.867V6.133A6.728,6.728,0,0,1,1.217,2.3C2.433.767,3.042,0,4.867,0ZM20.683,13.8a6.3,6.3,0,0,0-9.733,0,10.1,10.1,0,0,0-1.825,6.133,10.1,10.1,0,0,0,1.825,6.133,6.3,6.3,0,0,0,9.733,0,10.1,10.1,0,0,0,1.825-6.133A10.1,10.1,0,0,0,20.683,13.8ZM63.875,57.5,45.625,23,29.2,49.833,18.25,39.867,9.125,57.5Z" transform="translate(0 2)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_1463" data-name="Rectangle 1463" transform="translate(702 930)" fill="#dfdfdf" stroke="#707070" stroke-width="1">
+      <rect width="428" height="73" stroke="none"/>
+      <rect x="0.5" y="0.5" width="427" height="72" fill="none"/>
+    </g>
+    <text id="News" transform="translate(916 637)" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-18.286" y="0">News</tspan></text>
+    <g id="Menu_component" data-name="Menu component" transform="translate(-1 -46)">
+      <g id="Image-2" data-name="Image" transform="translate(389)">
+        <path id="Path_148-2" data-name="Path 148" d="M1512,0c27,0,54,12.989,67.5,25.978,27,25.978,40.5,38.967,40.5,77.933v974.167c0,25.978-13.5,51.956-27,64.944-27,12.989-40.5,25.978-81,25.978H108c-40.5,0-54-12.989-81-25.978-13.5-25.978-27-38.967-27-77.933V103.911C0,77.933,13.5,51.956,27,38.967,54,12.989,67.5,0,108,0ZM459,233.8c-27-25.978-67.5-38.967-108-38.967S270,207.822,243,233.8s-40.5,64.944-40.5,103.911S216,415.644,243,441.622s67.5,38.967,108,38.967,81-12.989,108-38.967,40.5-64.944,40.5-103.911S486,259.778,459,233.8Zm958.5,740.367-405-584.5L648,844.278,405,675.422,202.5,974.167Z" transform="translate(0 0)" fill="#f6f6f6"/>
+      </g>
+      <g id="Rectangle_1522" data-name="Rectangle 1522" transform="translate(0 46)" stroke="#707070" stroke-width="1">
+        <rect width="412" height="1090" stroke="none"/>
+        <rect x="0.5" y="0.5" width="411" height="1089" fill="none"/>
+      </g>
+      <g id="Menu-2" data-name="Menu" transform="translate(123 321)">
+        <rect id="Rectangle_1515" data-name="Rectangle 1515" width="186" height="559" fill="none"/>
+      </g>
+      <line id="Line_6" data-name="Line 6" x2="230" transform="translate(92.5 882.5)" fill="none" stroke="#fff" stroke-width="1"/>
+      <g id="Instagram" transform="translate(225.752 926.105)">
+        <path id="Path_3-2" data-name="Path 3" d="M19.376,3.445a59.411,59.411,0,0,1,7.75.215,9.985,9.985,0,0,1,3.66.646,7.561,7.561,0,0,1,3.66,3.66,9.985,9.985,0,0,1,.646,3.66c0,1.938.215,2.583.215,7.75a59.41,59.41,0,0,1-.215,7.75,9.986,9.986,0,0,1-.646,3.66,7.561,7.561,0,0,1-3.66,3.66,9.985,9.985,0,0,1-3.66.646c-1.938,0-2.583.215-7.75.215a59.41,59.41,0,0,1-7.75-.215,9.986,9.986,0,0,1-3.66-.646,7.561,7.561,0,0,1-3.66-3.66,9.985,9.985,0,0,1-.646-3.66c0-1.938-.215-2.583-.215-7.75a59.411,59.411,0,0,1,.215-7.75,9.985,9.985,0,0,1,.646-3.66A7.732,7.732,0,0,1,5.813,5.813,3.64,3.64,0,0,1,7.966,4.306a9.985,9.985,0,0,1,3.66-.646,59.411,59.411,0,0,1,7.75-.215m0-3.445A63.611,63.611,0,0,0,11.41.215a13.291,13.291,0,0,0-4.736.861A8.428,8.428,0,0,0,3.229,3.229,8.428,8.428,0,0,0,1.076,6.674,9.809,9.809,0,0,0,.215,11.41,63.611,63.611,0,0,0,0,19.376a63.611,63.611,0,0,0,.215,7.966,13.291,13.291,0,0,0,.861,4.736,8.428,8.428,0,0,0,2.153,3.445,8.428,8.428,0,0,0,3.445,2.153,13.291,13.291,0,0,0,4.736.861,63.611,63.611,0,0,0,7.966.215,63.611,63.611,0,0,0,7.966-.215,13.291,13.291,0,0,0,4.736-.861,9.032,9.032,0,0,0,5.6-5.6,13.291,13.291,0,0,0,.861-4.736c0-2.153.215-2.8.215-7.966a63.611,63.611,0,0,0-.215-7.966,13.291,13.291,0,0,0-.861-4.736,8.428,8.428,0,0,0-2.153-3.445,8.428,8.428,0,0,0-3.445-2.153A13.291,13.291,0,0,0,27.342.215,63.611,63.611,0,0,0,19.376,0m0,9.473a9.744,9.744,0,0,0-9.9,9.9,9.9,9.9,0,1,0,9.9-9.9m0,16.362a6.343,6.343,0,0,1-6.459-6.459,6.343,6.343,0,0,1,6.459-6.459,6.343,6.343,0,0,1,6.459,6.459,6.343,6.343,0,0,1-6.459,6.459M29.71,6.674a2.368,2.368,0,1,0,2.368,2.368A2.389,2.389,0,0,0,29.71,6.674" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Facebook" transform="translate(160.496 912.273)">
+        <rect id="Rectangle_1458" data-name="Rectangle 1458" fill="none"/>
+        <path id="Path_1-2" data-name="Path 1" d="M93.885,40.972V22.307h6.373l.91-7.284H93.885V10.471c0-2.049.683-3.642,3.642-3.642h3.87V.228C100.486.228,98.21,0,95.706,0c-5.463,0-9.332,3.414-9.332,9.56v5.463H80v7.284h6.373V40.972Z" transform="translate(-77 11.574)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Image-3" data-name="Image" transform="translate(100 103)" clip-path="url(#clip-path-5)">
+        <rect id="Rectangle_549-2" data-name="Rectangle 549" width="233" height="233" fill="none"/>
+        <path id="Path_148-3" data-name="Path 148" d="M217.467,0c3.883,0,7.767,2.544,9.708,5.089C231.058,10.178,233,12.722,233,20.356V211.189a22.931,22.931,0,0,1-3.883,12.722c-3.883,2.544-5.825,5.089-11.65,5.089H15.533c-5.825,0-7.767-2.544-11.65-5.089C1.942,218.822,0,216.278,0,208.644V20.356A22.932,22.932,0,0,1,3.883,7.633C7.767,2.544,9.708,0,15.533,0ZM66.017,45.8a19.621,19.621,0,0,0-31.067,0c-3.883,5.089-5.825,12.722-5.825,20.356s1.942,15.267,5.825,20.356a19.621,19.621,0,0,0,31.067,0c3.883-5.089,5.825-12.722,5.825-20.356S69.9,50.889,66.017,45.8ZM203.875,190.833l-58.25-114.5L93.2,165.389,58.25,132.311,29.125,190.833Z" transform="translate(0 2)" fill="#fff"/>
+      </g>
+      <text id="Menu_item" data-name="Menu item" transform="translate(154 452)" fill="#fff" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Menu item</tspan></text>
+      <text id="Menu_item-2" data-name="Menu item" transform="translate(154 539)" fill="#fff" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Menu item</tspan></text>
+      <text id="Menu_item-3" data-name="Menu item" transform="translate(154 625)" fill="#fff" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Menu item</tspan></text>
+      <text id="Menu_item-4" data-name="Menu item" transform="translate(154 712)" fill="#fff" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Menu item</tspan></text>
+      <text id="Menu_item-5" data-name="Menu item" transform="translate(154 798)" fill="#fff" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Menu item</tspan></text>
+    </g>
+    <g id="Component_50_1" data-name="Component 50 – 1" transform="translate(631 1014)">
+      <g id="Rectangle_1460" data-name="Rectangle 1460" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="300" height="250" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="249" fill="none"/>
+      </g>
+      <g id="Rectangle_1461" data-name="Rectangle 1461" transform="translate(334)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="300" height="250" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="249" fill="none"/>
+      </g>
+      <g id="Rectangle_1462" data-name="Rectangle 1462" transform="translate(668)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="300" height="250" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="249" fill="none"/>
+      </g>
+      <text id="Lorem_ipsum_dolor_sit_amet_.Fusce_lectus_nulla_maximus_id_t_" data-name="Lorem ipsum dolor 
+sit amet,.Fusce lectus 
+nulla, maximus id t " transform="translate(44 61)" font-size="24" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="22">sit amet,.Fusce lectus </tspan><tspan x="0" y="44">nulla, maximus id t </tspan></text>
+      <text id="Lorem_ipsum_dolor_sit_amet_.Fusce_lectus_nulla_maximus_id_t_2" data-name="Lorem ipsum dolor 
+sit amet,.Fusce lectus 
+nulla, maximus id t " transform="translate(362 61)" font-size="24" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="22">sit amet,.Fusce lectus </tspan><tspan x="0" y="44">nulla, maximus id t </tspan></text>
+      <text id="Lorem_ipsum_dolor_sit_amet_.Fusce_lectus_nulla_maximus_id_t_3" data-name="Lorem ipsum dolor 
+sit amet,.Fusce lectus 
+nulla, maximus id t " transform="translate(712 61)" font-size="24" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Lorem ipsum dolor </tspan><tspan x="0" y="22">sit amet,.Fusce lectus </tspan><tspan x="0" y="44">nulla, maximus id t </tspan></text>
+    </g>
+    <g id="Button" transform="translate(921 651)">
+      <rect id="Rectangle_150" data-name="Rectangle 150" width="150" height="52" rx="4"/>
+      <text id="COURSES" transform="translate(75 30)" fill="#fff" font-size="13" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-32.145" y="0">COURSES</tspan></text>
+    </g>
+    <g id="Button-2" data-name="Button" transform="translate(1130 651)">
+      <rect id="Rectangle_150-2" data-name="Rectangle 150" width="150" height="52" rx="4"/>
+      <text id="SCHEDULE" transform="translate(75 30)" fill="#fff" font-size="13" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-35.753" y="0">SCHEDULE</tspan></text>
+    </g>
+    <text id="Welcome_to_Karamba_Dance_Studio" data-name="Welcome to Karamba Dance Studio" transform="translate(1115 525)" font-size="31" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-260.692" y="0">Welcome to Karamba Dance Studio</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_.Fusce_lectus_nulla_maximus_id_t_Fusce_lectus_nulla_maximus_id_tortor_at." data-name="Lorem ipsum dolor sit amet,.Fusce lectus nulla, maximus id t  Fusce lectus nulla, maximus id tortor at." transform="translate(1115 563)" font-size="22" font-family="ArialMT, Arial"><tspan x="-232.928" y="0">Lorem ipsum dolor sit amet,.Fusce lectus nulla, </tspan><tspan x="-261.642" y="28" xml:space="preserve">maximus id t  Fusce lectus nulla, maximus id tortor at.</tspan></text>
+  </g>
+</svg>

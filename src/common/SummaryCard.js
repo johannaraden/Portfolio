@@ -92,7 +92,7 @@ export const SummaryCard = ({ title, secondaryText, deploy, text, keywords, href
           {/* href only used in summary for "more projects" */}
           {href && <a href={href}><Button>To Code</Button></a>}
           {deploy && <a href={deploy}><Button>To project</Button></a>}
-          {text && <a href={text}><Button>Read more</Button></a>}
+          {text && <a href={text}><Button>To article</Button></a>}
         </CardText>
       </Header>
         {/* {window.screen.width < DeviceSize.tablet.replace( /(^.+\D)(\d+)(\D.+$)/i,'$2') ? 

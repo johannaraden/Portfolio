@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { BrowserRouter, Switch, Route, Link, NavLink } from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { Header } from 'components/Header'
 import { Footer } from 'components/Footer'

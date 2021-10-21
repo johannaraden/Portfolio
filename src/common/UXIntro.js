@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styling.css'
-import styled, { keyframes } from 'styled-components/macro'
+import styled from 'styled-components/macro'
 import { DeviceSize } from '../common/Sizes'
 import Stroke from '../img/Web/brush-stroke-banner-7.svg'
 

@@ -41,10 +41,10 @@ export const Links = () => {
         <Headline title='for more' />
       </HeadlineSection>
     <IconWrapper>
-      <IconCircle>
+      <IconCircle alt='git-icon'>
         <Icon src={Git} alt='git-icon' href='https://github.com/johannaraden'/>
       </IconCircle>
-      <IconCircle>
+      <IconCircle alt='linkedin-icon'>
         <Icon src={Linkedin} alt='linkedin-icon' href='https://www.linkedin.com/in/johanna-r%C3%A5d%C3%A9n-0821b310b/'/>
       </IconCircle>
     </IconWrapper>

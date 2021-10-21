@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import { Icon } from 'common/Icon'
 import Git from '../img/Web/github.svg'
 import Linkedin from '../img/Web/linkedin.svg'
-import Profile from '../img/Profile/cute2.png'
+import Profile from '../img/Profile/profile.webp'
 import { DeviceSize } from '../common/Sizes'
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -142,6 +142,7 @@ export const Header = () => {
         <ImgContainer data-percent="100">
         {/* <figure class="chart" > */}
             <Img 
+            alt='profile_picture'
             data-aos="fade-up"
             data-aos-duration="30000"
             data-aos-delay="1000" 

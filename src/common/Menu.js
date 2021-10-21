@@ -1,11 +1,11 @@
-import { Karamba } from "components/Karamba"
-import { Language } from "components/Language"
-import { Intro } from "components/Intro"
-import { Skills } from "components/Skills"
-import styled from 'styled-components/macro'
+import { Karamba } from 'components/Karamba'
+import { Language } from 'components/Language'
+// import { Intro } from "components/Intro"
+// import { Skills } from "components/Skills"
+// import styled from 'styled-components/macro'
 import { HighlightButton } from 'common/HighlightButton'
-import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import React from 'react'
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import '../styling.css'
 
 

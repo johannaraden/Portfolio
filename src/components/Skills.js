@@ -14,6 +14,12 @@ const SkillsContainer = styled.section`
   @media ${DeviceSize.mobileL} {
     flex-direction: row;
   }
+  @media ${DeviceSize.laptopL} {
+    width: 80%;
+    > * {
+      justify-content: center;
+    }
+  }
 `
 
 const DetailsContainer = styled.section`
@@ -32,7 +38,7 @@ const DetailsContainer = styled.section`
       margin: .5em auto;
     }
 `
-const design = ["Adobe XD", "Figma", "Balsamiq", "Illustrator", "Wordpress", "Miro" ]
+const design = ["Adobe XD", "Figma", "Balsamiq", "Illustrator", "Wordpress", "InDesign", "Miro" ]
 
 const code = ["JavaScript ES6","React", "HTML", "CSS3", "Redux", "Node.js", "React Native", "REST-API"]
 
