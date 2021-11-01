@@ -137,7 +137,7 @@ export const Header = () => {
           data-aos-delay="1000"
           >  
           <Name>PORTFOLIO: <strong>JOHANNA RÅDÉN</strong></Name>
-          <Profession>frontend developer.</Profession>
+          <Profession>ux/ui engineer.</Profession>
         </IntroContainer>
         <ImgContainer data-percent="100">
         {/* <figure class="chart" > */}

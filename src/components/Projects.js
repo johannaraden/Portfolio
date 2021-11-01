@@ -30,6 +30,7 @@ const ProjectsContainer = styled.section`
 
 const projects = [
   { title: 'API project', coverImage: Car, secondaryText: 'Upcoming project', deploy: '', href: '', technologies: [] },
+  { title: 'Q&A Forum project', coverImage: Car, secondaryText: 'Upcoming project', deploy: '', href: '', technologies: [] },
   { title: 'Happy Thoughts Project', coverImage: p1, secondaryText: 'Twitter-like program for updating “thoughts”. Frontend and API built from scratch.', deploy: 'https://sad-sammet-3a9bbc.netlify.app/', href: 'https://github.com/johannaraden/project-happy-thoughts', technologies: ['JavaScript', 'React', 'API', 'CSS'] },
   { title: 'Nutrition Project', coverImage: p3, secondaryText: 'Is your product vegetarian or vegan? Check by scanning or type in the barcode.', deploy: 'https://compassionate-noyce-b3f7e0.netlify.app/', href: 'https://github.com/johannaraden/project-nutrition', technologies: ['JavaScript', 'React', 'Redux', 'CSS', 'API'] },
   { title: 'Quiz Project', coverImage: p5, secondaryText: 'This quiz is constructed with redux to count and update score.', deploy: 'https://amazing-heisenberg-555cf5.netlify.app', href: 'https://github.com/johannaraden/project-redux-quiz-lions', technologies: ['JavaScript', 'React', 'Redux', 'CSS'] },

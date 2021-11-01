@@ -1,17 +1,8 @@
 import { Karamba } from 'components/Karamba'
 import { Language } from 'components/Language'
-// import { Intro } from "components/Intro"
-// import { Skills } from "components/Skills"
-// import styled from 'styled-components/macro'
 import { HighlightButton } from 'common/HighlightButton'
 import React from 'react'
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import '../styling.css'
-
-
-// const SubButton = styled(HighlightButton)`
-//   font-size: 1em;
-// `
 
 
 class Tabs extends React.Component {
@@ -35,7 +26,7 @@ class Tabs extends React.Component {
     return React.Children.map(this.props.children, (item, i) => {
       if (i%2 === 0) {
         let actived = this.state.actived === i ? 'actived' : ''
-        return <button onClick={this.select(i)} className={`${actived} tab`}>{item}</button>
+        return <button onClick={this.select(i)} className={`${actived} subHeader`}>{item}</button>
       }
     })
   }

@@ -50,21 +50,6 @@
 }
 
 
-/* /////// */
-
-/* .language {
-  transform: translateX(-100%);
-  color: black;
-  border: 2px solid black;
-}
-
-.karamba {
-  transform: translateX(-100%);
-  color: black;
-  border: 2px solid black;
-} */
-
-
 .tabs,
   .tab {
     display: flex;
@@ -75,6 +60,13 @@
   font-size: 1em;
 }
 
-a.actived{
+.subHeader {
+  border: none;
+  background-color: white;
+  margin: 1em;
+  padding-bottom: 4em;
+}
+
+.subHeader.actived{
   text-decoration: underline;
 }
