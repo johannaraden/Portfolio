@@ -33,7 +33,7 @@ export const Intro = () => {
     <Main primary>
       <IntroContainer>
         <h2>hello</h2>
-        <p>A curious frontend developer who found coding through the interest in communication and design. I aspire to take advantage of my skills in communication, languages, design and combining them with coding in order to make functional, understandable and aesthetically pleasing applications. </p>
+        <p>A curious designer/developer who found coding through the interest in communication and design. I aspire to take advantage of my skills in communication, languages, design and combining them with coding in order to make functional, understandable and aesthetically pleasing products. </p>
       </IntroContainer>
     </Main>
   )
